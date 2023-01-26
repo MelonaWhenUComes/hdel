@@ -1,0 +1,5 @@
+app:
+  api:
+    X-Naver-Client-Id: KvsDv5DxEwAf2L8DXwdN
+    X-Naver-Client-Secret: WVY_kT9KeP
+    Naver-News-URI: https://openapi.naver.com/v1/search/news.json

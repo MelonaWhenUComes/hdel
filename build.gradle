@@ -1,0 +1,43 @@
+buildscript {
+    ext{
+        springBootVersion = '2.7.2'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+        classpath "io.spring.gradle:dependency-management-plugin:1.0.12.RELEASE"
+    }
+}
+
+subprojects {
+    group 'com.hdel'
+    version '1.0'
+
+    apply plugin: 'java'
+    apply plugin: 'org.springframework.boot'
+    apply plugin: 'io.spring.dependency-management'
+
+    sourceCompatibility = 1.8
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        implementation group: 'junit', name: 'junit', version: '4.12'
+    }
+}
+
+project(':hdel-web') {
+    dependencies {
+        implementation project(':hdel-common')
+    }
+}
+
+project(':hdel-redis') {
+    dependencies {
+        implementation project(':hdel-common')
+    }
+}

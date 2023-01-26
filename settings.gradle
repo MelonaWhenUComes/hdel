@@ -1,0 +1,5 @@
+rootProject.name = 'hdel'
+include 'hdel-redis'
+include 'hdel-common'
+include 'hdel-web'
+

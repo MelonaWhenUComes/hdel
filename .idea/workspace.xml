@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-redis/src/main/java/com/hdel/redis/Controller/RedisTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-redis/src/main/java/com/hdel/redis/Entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-redis/src/main/java/com/hdel/redis/Repository/UserRedisRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-redis/src/main/java/com/hdel/redis/SessionApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-redis/src/main/java/com/hdel/redis/config/RedisConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-redis/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-redis/src/main/resources/log4j2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/WebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/CORSConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/HoInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestKakaoLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestNaverLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestThymeleaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/openApi/GovApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/openApi/NaverNewsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/domain/GovElevatorInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/domain/GovElevatorInfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/dto/GovElevatorInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/dto/api/NaverNews.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/dto/excel/Excel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/hoInfo/HoInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/hoInfo/HoInfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/mapper/TestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/service/HoInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/service/api/GovApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/service/api/NaverNewsApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/service/common/ApiHttpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/service/common/ConverterUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/service/common/ExcelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/application-app.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/log4j2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/kakaoAccessResponse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/testThymeleaf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hdel" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hdel" type="f1a62948:ProjectNode" />
+                <item name="hdel-web" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hdel" type="f1a62948:ProjectNode" />
+                <item name="hdel-web" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hdel" type="f1a62948:ProjectNode" />
+                <item name="hdel-web" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KG6mcsYHx7SmRYz6sMMzXjpFPi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "C:/HdelWeb/hdel/hdel-redis/src/main/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\HdelWeb\hdel\hdel-redis\src\main\resources" />
+      <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources" />
+      <recent name="C:\HdelWeb\hdel\hdel-web\src\main\java" />
+      <recent name="C:\HdelWeb\hdel\hdel-web\src" />
+      <recent name="C:\HdelWeb\hdel\hdel-common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.WebApplication">
+    <configuration name="SessionApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hdel.redis.SessionApplication" />
+      <module name="hdel.hdel-redis.main" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=local" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdel.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hdel.web.WebApplication" />
+      <module name="hdel.hdel-web.main" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=local" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdel.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.WebApplication" />
+      <item itemvalue="Application.SessionApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WebApplication" />
+        <item itemvalue="Application.SessionApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="" />
+      <created>1673588735233</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673588735233</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hdel-redis/src/main/java/com/hdel/redis/Controller/RedisTestController.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

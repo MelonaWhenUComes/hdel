@@ -1,0 +1,170 @@
+server:
+  port: 8091
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+---
+spring:
+  profiles: local
+  datasource:
+    url: jdbc:mariadb://localhost:3306/DB_TEST
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: ycchang
+    password: init1234!
+  #config:
+  #  import:
+  #      - classpath:/application-app.yml
+  output:
+    ansi:
+      enable: ALWAYS
+  jpa:
+    open-in-view: true
+    hibernate:
+      #ddl-auto: create
+      ddl-auto: none
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      use-new-id-generator-mappings: false
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
+      #dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+      dialect: org.hibernate.dialect.MariaDB103Dialect
+
+#  jpa:
+      #    hibernate:
+      #      naming:
+#        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+####        physical_naming_strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
+
+
+###############################################################################
+#hikari:
+#  auto-commit: false
+#  connection-test-query: SELECT 1
+#  minimum-idle: 10
+#  maximum-pool-size: 50
+#  transaction-isolation: TRANSACTION_READ_UNCOMMITTED
+#
+#  jpa:
+#    database-platform: org.hibernate.dialect.MariaDB103Dialect
+#    properties:
+#      hibernate:
+#        format_sql: true
+#        hbm2ddl.auto: update
+#        ######        hbm2ddl.auto: none
+#        #implicit_naming_strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
+#        #physical_naming_strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+#        #physical_naming_strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
+#        naming:
+#          physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+#
+#    open-in-view: false
+#    show-sql: true
+#    generate-ddl: true
+#    ######false 로 바꿀것!!
+###############################################################################
+
+
+#  jpa:
+#   open-in-view: false
+#    generate-ddl: true
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+
+#mybatis
+mybatis:
+  configuration:
+    multiple-result-sets-enabled: false
+    map-underscore-to-camel-case: true
+    call-setters-on-nulls: true
+    jdbc-type-for-null: varchar
+    default-fetch-size: 500
+  mapper-locations:
+    - classpath:mybatis/mapper/*.xml
+  config-location: classpath:mybatis-config.xml.bak
+
+app:
+  api:
+    X-Naver-Client-Id: KvsDv5DxEwAf2L8DXwdN
+    X-Naver-Client-Secret: WVY_kT9KeP
+    Naver-News-URI: https://openapi.naver.com/v1/search/news.json
+
+logging:
+  config: classpath:log4j2.yml
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.type: trace
+server:
+  port: 8091
+
+
+---
+spring:
+  profiles: dev
+  datasource:
+    #url: jdbc:mariadb://localhost:3306/DB_TEST
+    #Expose Docker port로 설정해야함
+    url: jdbc:mariadb://172.18.0.1:3306/DB_TEST
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: ycchang
+    password: init1234!
+  #config:
+  #  import:
+  #      - classpath:/application-app.yml
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+#        physical_naming_strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
+hikari:
+  auto-commit: false
+  connection-test-query: SELECT 1
+  minimum-idle: 10
+  maximum-pool-size: 50
+  transaction-isolation: TRANSACTION_READ_UNCOMMITTED
+
+  jpa:
+    database-platform: org.hibernate.dialect.MariaDB103Dialect
+    properties:
+      hibernate:
+        format_sql: true
+        hbm2ddl.auto: none
+        #implicit_naming_strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
+        #physical_naming_strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+        physical_naming_strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
+    open-in-view: false
+    show-sql: true
+    generate-ddl: false
+
+#mybatis
+mybatis:
+  configuration:
+    multiple-result-sets-enabled: false
+    map-underscore-to-camel-case: true
+    call-setters-on-nulls: true
+    jdbc-type-for-null: varchar
+    default-fetch-size: 500
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  config-location: classpath:mybatis-config.xml
+
+app:
+  api:
+    X-Naver-Client-Id: KvsDv5DxEwAf2L8DXwdN
+    X-Naver-Client-Secret: WVY_kT9KeP
+    Naver-News-URI: https://openapi.naver.com/v1/search/news.json
+
+logging:
+  config: classpath:log4j2.yml
+
+server:
+  port: 8092
+#port: 80
+
+---
+spring:
+  profiles: prod
+server:
+  port: 8093

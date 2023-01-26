@@ -1,0 +1,24 @@
+server:
+  port: 8090
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+---
+spring:
+  profiles: local
+  redis:
+    host: localhost
+    port: 6379
+  datasource:
+    url: jdbc:mariadb://localhost:3306/DB_TEST
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: ycchang
+    password: init1234!
+logging:
+  config: classpath:log4j2.yml
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.type: trace
+server:
+  port: 8090
