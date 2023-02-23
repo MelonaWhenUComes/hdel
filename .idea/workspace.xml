@@ -4,57 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-redis/src/main/java/com/hdel/redis/Controller/RedisTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-redis/src/main/java/com/hdel/redis/Entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-redis/src/main/java/com/hdel/redis/Repository/UserRedisRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-redis/src/main/java/com/hdel/redis/SessionApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-redis/src/main/java/com/hdel/redis/config/RedisConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-redis/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-redis/src/main/resources/log4j2.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/WebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/CORSConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/HoInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestKakaoLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestNaverLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestThymeleaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/openApi/GovApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/openApi/NaverNewsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/domain/GovElevatorInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/domain/GovElevatorInfoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/dto/GovElevatorInfoDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/dto/api/NaverNews.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/dto/excel/Excel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/hoInfo/HoInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/hoInfo/HoInfoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/mapper/TestMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/service/HoInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/service/api/GovApiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/service/api/NaverNewsApiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/service/common/ApiHttpRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/service/common/ConverterUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/service/common/ExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/application-app.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/log4j2.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/kakaoAccessResponse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/testThymeleaf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="multi module conversion" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,7 +95,8 @@
     "last_opened_file_path": "C:/HdelWeb/hdel/hdel-redis/src/main/resources",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -158,6 +109,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hdel.web.domain" />
+      <recent name="com.hdel.web.entity" />
     </key>
   </component>
   <component name="RunManager" selected="Application.WebApplication">
@@ -209,6 +164,21 @@
       <option name="presentableId" value="Default" />
       <updated>1673588735233</updated>
     </task>
+    <task id="LOCAL-00001" summary="multi module conversion">
+      <created>1674693171049</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674693171049</updated>
+    </task>
+    <task id="LOCAL-00002" summary="multi module conversion">
+      <created>1674693478446</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674693478446</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +192,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="multi module conversion" />
+    <option name="LAST_COMMIT_MESSAGE" value="multi module conversion" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -229,6 +203,11 @@
           <url>file://$PROJECT_DIR$/hdel-redis/src/main/java/com/hdel/redis/Controller/RedisTestController.java</url>
           <line>34</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/service/api/GovApiService.java</url>
+          <line>384</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

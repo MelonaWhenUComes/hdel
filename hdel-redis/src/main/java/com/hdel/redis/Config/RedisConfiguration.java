@@ -1,4 +1,4 @@
-package com.hdel.redis.config;
+package com.hdel.redis.Config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
