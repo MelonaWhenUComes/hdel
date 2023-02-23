@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="multi module conversion" />
+    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="multi module conversion">
+      <change afterPath="$PROJECT_DIR$/hdel-frontend/vue-front/src/views/common/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-frontend/vue-front/src/views/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-frontend/vue-front/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SpringSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/domain/HdelUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/domain/HdelUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/service/hdelUser/HdelUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-redis/src/main/java/com/hdel/redis/config/RedisConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-redis/src/main/java/com/hdel/redis/Config/RedisConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674693478446</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="multi module conversion">
+      <created>1677132070733</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677132070733</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
