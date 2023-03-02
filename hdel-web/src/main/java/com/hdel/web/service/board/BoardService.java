@@ -5,6 +5,10 @@ import com.hdel.web.domain.board.BoardRepository;
 import com.hdel.web.dto.board.BoardDto;
 import groovy.util.logging.Slf4j;
 import lombok.RequiredArgsConstructor;
+import model.Header;
+import model.Pagination;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
@@ -21,7 +25,7 @@ public class BoardService {
     /**
      * 게시글 목록 가져오기
      */
-    public List<BoardDto> getBoardList() {
+    /*public List<BoardDto> getBoardList() {
         List<Board> boardEntities = boardRepository.findAll();
         List<BoardDto> dtos = new ArrayList<>();
 
@@ -38,6 +42,31 @@ public class BoardService {
         }
 
         return dtos;
+    }*/
+    public Header<List<BoardDto>> getBoardList(Pageable pageable) {
+        List<BoardDto> dtos = new ArrayList<>();
+
+        Page<Board> boardPage = boardRepository.findAllByOrderByIdDesc(pageable);
+        for (Board board : boardPage) {
+            BoardDto dto = BoardDto.builder()
+                    .id(board.getId())
+                    .author(board.getAuthor())
+                    .title(board.getTitle())
+                    .contents(board.getContents())
+                    .createdAt(board.getCreatedAt().format(DateTimeFormatter.ofPattern("yyyy-MM-dd hh:mm:ss")))
+                    .build();
+
+            dtos.add(dto);
+        }
+
+        Pagination pagination = new Pagination(
+                (int) boardPage.getTotalElements()
+                , pageable.getPageNumber() + 1
+                , pageable.getPageSize()
+                , 10
+        );
+
+        return Header.OK(dtos, pagination);
     }
 
     /**

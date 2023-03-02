@@ -1,5 +1,5 @@
 <template>
-    <div class="boardDto-list">
+    <div class="board-list">
       <div class="common-buttons">
         <button type="button" class="w3-button w3-round w3-blue-gray" v-on:click="fnWrite">등록</button>
       </div>
@@ -13,11 +13,11 @@
         </tr>
         </thead>
         <tbody>
-        <tr v-for="(row, idx) in list" :key="idx">
-          <td>{{ row.idx }}</td>
-          <td><a v-on:click="fnView(`${row.idx}`)">{{ row.title }}</a></td>
+        <tr v-for="(row, id) in list" :key="id">
+          <td>{{ row.id }}</td>
+          <td><a v-on:click="fnView(`${row.id}`)">{{ row.title }}</a></td>
           <td>{{ row.author }}</td>
-          <td>{{ row.created_at }}</td>
+          <td>{{ row.createdAt }}</td>
         </tr>
         </tbody>
       </table>
@@ -85,12 +85,19 @@ export default {
         size: this.size
       }
 
-      this.$axios.get(this.$serverUrl + "/boardDto/list", {
+      this.$axios.get(this.$serverUrl + "/board/list", {
         params: this.requestBody,
         headers: {}
       }).then((res) => {      
 
-        this.list = res.data  //서버에서 데이터를 목록으로 보내므로 바로 할당하여 사용할 수 있다.
+        //this.list = res.data  //서버에서 데이터를 목록으로 보내므로 바로 할당하여 사용할 수 있다.
+        //Pagination 적용
+        if (res.data.resultCode === "OK") {
+          this.list = res.data.data
+          this.paging = res.data.pagination
+          this.no = this.paging.total_list_cnt - ((this.paging.page - 1) * this.paging.page_size)
+        }
+
 
       }).catch((err) => {
         if (err.message.indexOf('Network Error') > -1) {
@@ -98,8 +105,8 @@ export default {
         }
       })
     },
-    fnView(idx) {
-      this.requestBody.idx = idx
+    fnView(id) {
+      this.requestBody.id = id
       this.$router.push({
         path: './detail',
         query: this.requestBody
