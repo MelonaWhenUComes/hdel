@@ -4,17 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="multi module conversion">
-      <change afterPath="$PROJECT_DIR$/hdel-frontend/vue-front/src/views/common/Login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-frontend/vue-front/src/views/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-frontend/vue-front/vue.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SpringSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/domain/HdelUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/domain/HdelUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/service/hdelUser/HdelUserService.java" afterDir="false" />
+    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="frontend veu">
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/board/BoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/domain/board/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/domain/board/BoardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/dto/board/BoardDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/service/board/BoardService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-redis/src/main/java/com/hdel/redis/config/RedisConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-redis/src/main/java/com/hdel/redis/Config/RedisConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-frontend/vue-front/src/components/PageHeader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-frontend/vue-front/src/components/PageHeader.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-frontend/vue-frontend/src/components/PageHeader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-frontend/vue-frontend/src/components/PageHeader.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-frontend/vue-frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-frontend/vue-frontend/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-frontend/vue-frontend/src/views/board/BoardDetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-frontend/vue-frontend/src/views/board/BoardDetail.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-frontend/vue-frontend/src/views/board/BoardList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-frontend/vue-frontend/src/views/board/BoardList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SpringSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SpringSecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,20 +99,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "C:/HdelWeb/hdel/hdel-redis/src/main/resources",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/HdelWeb/hdel/hdel-redis/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hdel.web.service.board" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\HdelWeb\hdel\hdel-redis\src\main\resources" />
       <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources" />
@@ -122,6 +127,7 @@
       <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hdel.web.domain.board" />
       <recent name="com.hdel.web.domain" />
       <recent name="com.hdel.web.entity" />
     </key>
@@ -196,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677132070733</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="frontend veu">
+      <created>1677132194955</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677132194955</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,7 +225,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="multi module conversion" />
-    <option name="LAST_COMMIT_MESSAGE" value="multi module conversion" />
+    <MESSAGE value="frontend veu" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontend veu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

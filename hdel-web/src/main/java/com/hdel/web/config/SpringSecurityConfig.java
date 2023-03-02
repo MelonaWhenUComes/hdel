@@ -15,7 +15,8 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
                 .authorizeRequests()
                     //.antMatchers("/", "/home", "/login", "/swagger-ui/", "/*").permitAll()
                     //.antMatchers("/hello").hasRole("USER")
-                    .anyRequest().authenticated()
+                    //.anyRequest().authenticated()
+                    .anyRequest().permitAll()
                 .and()
                 .formLogin()
                     /*****

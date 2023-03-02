@@ -1,5 +1,5 @@
 <template>
-    <div class="board-list">
+    <div class="boardDto-list">
       <div class="common-buttons">
         <button type="button" class="w3-button w3-round w3-blue-gray" v-on:click="fnWrite">등록</button>
       </div>
@@ -85,7 +85,7 @@ export default {
         size: this.size
       }
 
-      this.$axios.get(this.$serverUrl + "/board/list", {
+      this.$axios.get(this.$serverUrl + "/boardDto/list", {
         params: this.requestBody,
         headers: {}
       }).then((res) => {      
