@@ -1,11 +1,17 @@
+//import './assets/w3.css'
 import './assets/common.css'
 
 import { createApp } from 'vue'
 import App from './App.vue'
+import axios from './utils/axios'   //여기가 변경되었음
 import router from './router'
-import axios from 'axios'
+import store from './vuex/store'  //1. store 추가
 
 const app = createApp(App)
-app.config.globalProperties.$axios = axios;  //전역변수로 설정 컴포넌트에서 this.$axios 호출할 수 있음
+app.config.globalProperties.$axios = axios  //전역변수로 설정 컴포넌트에서 this.$axios 호출할 수 있음
 app.config.globalProperties.$serverUrl = '//localhost:8091' //api server
-app.use(router).mount('#app')
+app.config.globalProperties.$store = store
+app
+  .use(router)
+  .use(store)   //2. store 등록
+  .mount('#app')

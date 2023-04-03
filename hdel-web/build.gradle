@@ -26,6 +26,7 @@ dependencies {
 
     //mariadb
     implementation group: 'org.mariadb.jdbc', name: 'mariadb-java-client', version: '2.7.4'
+    testImplementation group: 'org.mariadb.jdbc', name: 'mariadb-java-client', version: '2.7.4'
 
     implementation 'org.springframework.boot:spring-boot-starter-web'
     compileOnly 'org.projectlombok:lombok'
@@ -62,13 +63,16 @@ dependencies {
     implementation group: 'commons-io', name: 'commons-io', version: '2.4'
     implementation group: 'org.apache.tika', name: 'tika-core', version: '2.3.0'
 
+    //
+    implementation 'javax.validation:validation-api:2.0.1.Final'
+    implementation 'com.auth0:java-jwt:3.14.0'
+
     // jwt 관련 의존성
 //    compile group: 'io.jsonwebtoken', name: 'jjwt-api', version: '0.11.2'
 //    runtime group: 'io.jsonwebtoken', name: 'jjwt-impl', version: '0.11.2'
 //    runtime group: 'io.jsonwebtoken', name: 'jjwt-jackson', version: '0.11.2'
 }
-/*
 
 test {
     useJUnitPlatform()
-}*/
+}

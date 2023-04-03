@@ -53,9 +53,15 @@ public class BoardController {
         return boardService.getBoard(id);
     }
 
+    //@PostMapping("/create")
     @PostMapping("/create")
-    public Board create(@RequestBody BoardDto boardDto) {
+    /*public Board create(@RequestBody BoardDto boardDto) {
+        BoardDto boardDto1 = new BoardDto();
         return boardService.create(boardDto);
+    }*/
+    public Board create() {
+        BoardDto boardDto1 = new BoardDto();
+        return boardService.create(boardDto1);
     }
 
     @PatchMapping("/update") //PostMapping 으로 동일하게 넣으면 오류 떨어짐

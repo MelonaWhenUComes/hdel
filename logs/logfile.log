@@ -1,0 +1,8 @@
+[ERROR] 2023-03-06 11:02:11.132 [http-nio-8091-exec-2] JwtUtil - JWTVerificationException: The token was expected to have 3 parts, but got 1.
+[ERROR] 2023-03-06 11:02:11.133 [http-nio-8091-exec-2] TokenRequestFilter - ### TokenInfo is Null
+[ERROR] 2023-03-06 11:02:22.088 [http-nio-8091-exec-4] JwtUtil - JWTVerificationException: The token was expected to have 3 parts, but got 1.
+[ERROR] 2023-03-06 11:02:22.089 [http-nio-8091-exec-4] TokenRequestFilter - ### TokenInfo is Null
+[ERROR] 2023-03-06 11:02:30.284 [http-nio-8091-exec-3] JwtUtil - JWTVerificationException: The token was expected to have 3 parts, but got 1.
+[ERROR] 2023-03-06 11:03:08.439 [http-nio-8091-exec-3] TokenRequestFilter - ### TokenInfo is Null
+[ERROR] 2023-03-06 11:03:18.789 [http-nio-8091-exec-5] JwtUtil - JWTVerificationException: The token was expected to have 3 parts, but got 1.
+[ERROR] 2023-03-06 11:03:18.791 [http-nio-8091-exec-5] TokenRequestFilter - ### TokenInfo is Null
