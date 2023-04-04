@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="dev 설정 수정">
+    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="내부망 접근불가에 따른 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
@@ -362,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680584157127</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="내부망 접근불가에 따른 수정">
+      <created>1680589383189</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680589383189</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -383,7 +390,8 @@
     <MESSAGE value="수정수정수정" />
     <MESSAGE value="Vue Front 추가, JWT 추가" />
     <MESSAGE value="dev 설정 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="dev 설정 수정" />
+    <MESSAGE value="내부망 접근불가에 따른 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="내부망 접근불가에 따른 수정" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
