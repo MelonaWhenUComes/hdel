@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="내부망 접근불가에 따른 수정1" />
+    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="EXCEL EXPORT 에서 DBINSERT 로 바꿈">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/test/java/com/hdel/web/domain/user/MemberRepositoryTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,6 +76,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -84,7 +90,7 @@
       <map>
         <entry key="com.haulmont.jpb.jpaInspector" value="false" />
         <entry key="com.haulmont.jpb.jpaPalette" value="false" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -97,31 +103,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/HdelWeb/hdel/hdel-redis/src/main/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "C:/HdelWeb/hdel/gradle/wrapper/bin",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "terminal"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.hdel.web.service.board" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\HdelWeb\hdel\gradle\wrapper\bin" />
       <recent name="C:\HdelWeb\hdel\hdel-redis\src\main\resources" />
       <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources" />
       <recent name="C:\HdelWeb\hdel\hdel-web\src\main\java" />
       <recent name="C:\HdelWeb\hdel\hdel-web\src" />
-      <recent name="C:\HdelWeb\hdel\hdel-common" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources" />
@@ -133,13 +139,14 @@
       <recent name="com.hdel.web.domain.user" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hdel.web.test" />
       <recent name="com.hdel.web.config" />
       <recent name="com.hdel.web.domain.board" />
       <recent name="com.hdel.web.domain" />
       <recent name="com.hdel.web.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WebApplication">
+  <component name="RunManager" selected="JUnit.Test.getGisFromGcenAtList">
     <configuration name="WebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hdel.web.WebApplication" />
       <module name="hdel.hdel-web.main" />
@@ -153,29 +160,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="UserRepositoryTest.test_1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":hdel-web:test" />
-            <option value="--tests" />
-            <option value="&quot;com.hdel.web.domain.user.UserRepositoryTest.test_1&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="MemberRepositoryTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hdel.hdel-web.test" />
@@ -205,39 +189,6 @@
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-Dspring.profiles.active=local" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MemberRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hdel.hdel-web.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hdel.web.domain.user.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hdel.web.domain.user" />
-      <option name="MAIN_CLASS_NAME" value="com.hdel.web.domain.user.MemberRepositoryTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=local" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MemberRepositoryTest.test_1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hdel.hdel-web.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hdel.web.domain.user.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hdel.web.domain.user" />
-      <option name="MAIN_CLASS_NAME" value="com.hdel.web.domain.user.MemberRepositoryTest" />
-      <option name="METHOD_NAME" value="test_1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -276,21 +227,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hdel.hdel-web.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdel.web.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hdel.web.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hdel.web.test.Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.getGisFromGcen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hdel.hdel-web.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdel.web.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hdel.web.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hdel.web.test.Test" />
+      <option name="METHOD_NAME" value="getGisFromGcen" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.getGisFromGcenAtList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hdel.hdel-web.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdel.web.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hdel.web.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hdel.web.test.Test" />
+      <option name="METHOD_NAME" value="getGisFromGcenAtList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.WebApplication" />
-      <item itemvalue="Gradle.UserRepositoryTest.test_1" />
       <item itemvalue="JUnit.MemberRepositoryTest.test_1" />
-      <item itemvalue="JUnit.MemberRepositoryTest (1)" />
-      <item itemvalue="JUnit.MemberRepositoryTest.test_1 (1)" />
       <item itemvalue="JUnit.MemberRepositoryTest" />
+      <item itemvalue="JUnit.Test" />
+      <item itemvalue="JUnit.Test.getGisFromGcen" />
+      <item itemvalue="JUnit.Test.getGisFromGcenAtList" />
+      <item itemvalue="JUnit.MemberRepositoryTest (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test.getGisFromGcenAtList" />
+        <item itemvalue="JUnit.Test" />
+        <item itemvalue="JUnit.Test.getGisFromGcen" />
         <item itemvalue="Application.WebApplication" />
         <item itemvalue="JUnit.MemberRepositoryTest (1)" />
-        <item itemvalue="JUnit.MemberRepositoryTest" />
-        <item itemvalue="JUnit.MemberRepositoryTest" />
-        <item itemvalue="JUnit.MemberRepositoryTest.test_1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -380,7 +379,56 @@
       <option name="project" value="LOCAL" />
       <updated>1680663813255</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="내부망 접근불가에 따른 수정1">
+      <created>1680663852052</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680663852052</updated>
+    </task>
+    <task id="LOCAL-00013" summary="내부망 접근불가에 따라 로컬에 bin 저장">
+      <created>1680664171863</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680664171863</updated>
+    </task>
+    <task id="LOCAL-00014" summary="내부망 접근불가에 따라 로컬에 bin 저장">
+      <created>1680664383281</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680664383281</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Multi module project 배포 설정 변경">
+      <created>1680665751961</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680665751961</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Multi module project 배포 설정 변경">
+      <created>1680667255076</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680667255076</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Multi module project 배포 설정 변경">
+      <created>1680667450934</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1680667450934</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Multi module project 배포 설정 변경">
+      <created>1680669640661</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1680669640662</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -403,7 +451,9 @@
     <MESSAGE value="dev 설정 수정" />
     <MESSAGE value="내부망 접근불가에 따른 수정" />
     <MESSAGE value="내부망 접근불가에 따른 수정1" />
-    <option name="LAST_COMMIT_MESSAGE" value="내부망 접근불가에 따른 수정1" />
+    <MESSAGE value="내부망 접근불가에 따라 로컬에 bin 저장" />
+    <MESSAGE value="Multi module project 배포 설정 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multi module project 배포 설정 변경" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -443,8 +493,38 @@
           <line>20</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hdel-web/src/test/java/com/hdel/web/test/Test.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hdel-web/src/test/java/com/hdel/web/test/Test.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hdel-web/src/test/java/com/hdel/web/test/Test.java</url>
+          <line>172</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hdel-web/src/test/java/com/hdel/web/test/Test.java</url>
+          <line>292</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hdel-web/src/test/java/com/hdel/web/test/Test.java</url>
+          <line>257</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="list1" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/hdel$UserRepositoryTest_test_1.ic" NAME="UserRepositoryTest.test_1 Coverage Results" MODIFIED="1677822453262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

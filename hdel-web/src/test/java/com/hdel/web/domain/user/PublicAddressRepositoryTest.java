@@ -14,7 +14,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
 @ActiveProfiles("local")
-class MemberRepositoryTest {
+class PublicAddressRepositoryTest {
     @Autowired
     MemberRepository memberRepository;
 

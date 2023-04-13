@@ -30,6 +30,7 @@ subprojects {
     }
 }
 
+
 project(':hdel-web') {
     dependencies {
         implementation project(':hdel-common')
