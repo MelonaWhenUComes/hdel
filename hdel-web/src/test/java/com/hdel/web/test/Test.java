@@ -508,6 +508,8 @@ class Test {
                     .publicLat((gisMap.getPublicLat() == null) ? 0.0 : Double.parseDouble(gisMap.getPublicLat()))
                     .publicLon((gisMap.getPublicLon() == null) ? 0.0 : Double.parseDouble(gisMap.getPublicLon()))
                             .build();
+
+            // 테이블 인서트
             PublicAddress savePublicAddress = publicAddressRepository.save(publicAddress);
             //assertThat(publicAddressRepository.getUserId()).isEqualTo(savedMember.getUserId());
 
