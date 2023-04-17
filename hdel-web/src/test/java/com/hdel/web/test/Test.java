@@ -443,12 +443,9 @@ class Test {
     @DisplayName("3. 공단 데이터 -> gcen 좌표 변환")
     @org.junit.jupiter.api.Test
     void getGisFromGcenOnlyCenterAtList() throws FileNotFoundException {
-        int insertCnt = 0;
         int pageCnt = 1;
         int count = 10;
-        HashMap<String, String> tempMap = new HashMap<>();
         String readFile = "C:\\ycchang\\01. 업무\\02. 업무 현황\\2023년도\\19. GCEN좌표변환\\HRTSListConvertExcel.csv";
-        String writeFile = "C:\\ycchang\\01. 업무\\02. 업무 현황\\2023년도\\19. GCEN좌표변환\\HRTSListConvertExcelGISWrite.csv";
 
         // 1. CSV 방식으로 파일 Read -> EXCEL(xlsx) 암호화로 불가
         ConverterUtil converterUtil = new ConverterUtil();
@@ -457,7 +454,6 @@ class Test {
         List<GisMap> gislist = new ArrayList<>();
 
         for (int y = 1; y < list1.size(); y++) {//Row 0 라인은 컬럼명
-            //for (int y = 1; y < 10; y++) {//Row 0 라인은 컬럼명
             GisMap gisMap = new GisMap();
 
             List<String> line = list1.get(y);
@@ -505,8 +501,8 @@ class Test {
                     .projNo(gisMap.getProjNo())
                     .hoNo(gisMap.getHoNo())
                     .publicAddr(gisMap.getPublicAddress())
-                    .publicLat((gisMap.getPublicLat() == null) ? 0.0 : Double.parseDouble(gisMap.getPublicLat()))
-                    .publicLon((gisMap.getPublicLon() == null) ? 0.0 : Double.parseDouble(gisMap.getPublicLon()))
+                    .publicLat(gisMap.getPublicLat() == null ? 0.0 : Double.parseDouble(gisMap.getPublicLat()))
+                    .publicLon(gisMap.getPublicLon() == null ? 0.0 : Double.parseDouble(gisMap.getPublicLon()))
                             .build();
 
             // 테이블 인서트
@@ -515,13 +511,7 @@ class Test {
 
             if(y % 100 == 0) log.debug("***************READ ROW : " + y);
         }
-        try {
-
-        }catch (Exception e) {
-
-        }
     }
-
 
 }
 
