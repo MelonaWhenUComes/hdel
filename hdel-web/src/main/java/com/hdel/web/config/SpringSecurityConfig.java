@@ -1,19 +1,18 @@
 package com.hdel.web.config;
 
 import com.hdel.web.service.member.MemberService;
-import com.hdel.web.util.TokenRequestFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
-import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+
 
 @Configuration
 @EnableWebSecurity
@@ -21,7 +20,6 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 
     private final MemberService memberService;
-    private final TokenRequestFilter tokenRequestFilter;
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
@@ -36,22 +34,63 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
         auth.userDetailsService(memberService).passwordEncoder(passwordEncoder());
     }
 
-    public void configure(HttpSecurity http) throws Exception {
-        http.csrf().disable().authorizeRequests() // 토큰을 활용하는 경우 모든 요청에 대해 접근이 가능하도록 함
-                .anyRequest().permitAll()
-                .and() // 토큰을 활용하면 세션이 필요 없으므로 STATELESS로 설정하여 Session을 사용하지 않는다.
-                .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
-                .and() // form 기반의 로그인에 대해 비활성화 한다.
-                .formLogin()
-                .disable()
-                .addFilterBefore(tokenRequestFilter, UsernamePasswordAuthenticationFilter.class);
 
-        //.addFilterBefore(tokenRequestFilter, UsernamePasswordAuthenticationFilter.class)
+    @Override
+    protected void configure(HttpSecurity http) throws Exception {
+        /*************
+        http
+                .authorizeRequests()
+                //.antMatchers("/chk").permitAll()    // LoadBalancer Chk
+//                .antMatchers(
+         // swagger v2
+//                        "/v2/api-docs",
+//                        "/swagger-resources",
+//                        "/swagger-resources/**",
+//                        "/configuration/ui",
+//                        "/configuration/security",
+//                        "/swagger-ui.html",
+//                        "/webjars/**",
+//                        // swagger v3
+//                        "/v3/api-docs/**",
+//                        "/swagger-ui/**"
+//                        ).permitAll()
+                .antMatchers("/").permitAll();
+        ***********/
+        http
+                .csrf().disable()
+                .authorizeRequests()
+                .antMatchers("/**")
+                .permitAll()
+                .and()
+                .authorizeRequests()
+                .anyRequest()
+                .authenticated()
+                ;
 
-        http.cors();
+
     }
 
+    @Override
+    public void configure(WebSecurity web) throws Exception {
+//        web.ignoring().antMatchers("/static/js/**"
+//                ,"/static/css/**"
+//                ,"/static/img/**"
+//                ,"/static/frontend/**"
+//                /**SWAGGER**/
+//                ,"/swagger-ui/**"
+//        );
+
+
+        web.ignoring().antMatchers("/");
+        //web.ignoring().antMatchers("/");
+    }
+
+
+
 }
+
+
+
     /* OLD
     @Override
     protected void configure(HttpSecurity http) throws Exception {

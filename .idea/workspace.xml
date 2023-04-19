@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="NEXUS 세팅 완료에 따라 넥서스의 Repository 바라보도록 수정 &#10;-- 방화벽 / NEXUS 계정 설정 추후에..">
+    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="multi module project 배포 오류 체크 1">
+      <change afterPath="$PROJECT_DIR$/hdel-common/src/main/java/com/hdel/common/util/ConverterUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-common/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-common/src/main/java/CommonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-common/src/main/java/CommonApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/WebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SpringSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SpringSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/util/TokenRequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/util/TokenRequestFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/test/java/com/hdel/web/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/test/java/com/hdel/web/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/logfile.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/logfile.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +118,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/HdelWeb/hdel/gradle/wrapper/bin&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
@@ -138,14 +145,14 @@
       <recent name="com.hdel.web.domain.user" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="util" />
       <recent name="com.hdel.web.test" />
       <recent name="com.hdel.web.config" />
       <recent name="com.hdel.web.domain.board" />
       <recent name="com.hdel.web.domain" />
-      <recent name="com.hdel.web.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test.getGisFromGcenAtList">
+  <component name="RunManager" selected="Application.WebApplication">
     <configuration name="WebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hdel.web.WebApplication" />
       <module name="hdel.hdel-web.main" />
@@ -448,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681774777922</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="multi module project 배포 오류 체크 1">
+      <created>1681782933365</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1681782933365</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -487,7 +501,8 @@
     <MESSAGE value="EXCEL EXPORT 에서 DBINSERT 로 바꿈" />
     <MESSAGE value="NEXUS 세팅 완료에 따라 넥서스의 Repository 바라보도록 수정" />
     <MESSAGE value="NEXUS 세팅 완료에 따라 넥서스의 Repository 바라보도록 수정 &#10;-- 방화벽 / NEXUS 계정 설정 추후에.." />
-    <option name="LAST_COMMIT_MESSAGE" value="NEXUS 세팅 완료에 따라 넥서스의 Repository 바라보도록 수정 &#10;-- 방화벽 / NEXUS 계정 설정 추후에.." />
+    <MESSAGE value="multi module project 배포 오류 체크 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="multi module project 배포 오류 체크 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -529,28 +544,73 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/hdel-web/src/test/java/com/hdel/web/test/Test.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/hdel-web/src/test/java/com/hdel/web/test/Test.java</url>
-          <line>86</line>
+          <line>82</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/hdel-web/src/test/java/com/hdel/web/test/Test.java</url>
-          <line>172</line>
+          <line>168</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/hdel-web/src/test/java/com/hdel/web/test/Test.java</url>
-          <line>292</line>
+          <line>288</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/hdel-web/src/test/java/com/hdel/web/test/Test.java</url>
-          <line>257</line>
+          <line>253</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestNaverLogin.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestController.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SpringSecurityConfig.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/member/MemberController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SpringSecurityConfig.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SpringSecurityConfig.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SwaggerConfig.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/WebMvcConfig.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/service/member/MemberService.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/util/TokenRequestFilter.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

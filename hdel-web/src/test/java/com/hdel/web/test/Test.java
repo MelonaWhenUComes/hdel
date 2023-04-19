@@ -1,14 +1,11 @@
 package com.hdel.web.test;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.hdel.web.domain.GovElevatorInfo;
 import com.hdel.web.domain.publicAddr.PublicAddress;
 import com.hdel.web.domain.publicAddr.PublicAddressRepository;
-import com.hdel.web.domain.user.Member;
 import com.hdel.web.domain.user.MemberRepository;
-import com.hdel.web.dto.GovElevatorInfoDto;
 import com.hdel.web.service.common.ApiHttpRequest;
-import com.hdel.web.service.common.ConverterUtil;
+//import com.hdel.web.service.common.ConverterUtil;
+import com.hdel.common.util.ConverterUtil;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -45,12 +42,11 @@ class Test {
     BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
 
     ApiHttpRequest apiHttpRequest;
-    ConverterUtil converterUtil;
 
     Logger log = (Logger) LoggerFactory.getLogger(Test.class);
 
     @DisplayName("1. GCEN 으로부터 GIS 데이터 가져오기 테스트!")
-    @org.junit.jupiter.api.Test
+    //@org.junit.jupiter.api.Test
     void getGisFromGcen(){
         {
             int insertCnt = 0;
@@ -173,7 +169,7 @@ class Test {
     }
 
     @DisplayName("2. CSV 읽어서 GCEN 으로부터 GIS 데이터 가져와서 쓰기")
-    @org.junit.jupiter.api.Test
+    //@org.junit.jupiter.api.Test
     void getGisFromGcenAtList() throws FileNotFoundException {
         int insertCnt = 0;
         int pageCnt = 1;
@@ -441,7 +437,7 @@ class Test {
     }
 
     @DisplayName("3. 공단 데이터 -> gcen 좌표 변환")
-    @org.junit.jupiter.api.Test
+    //@org.junit.jupiter.api.Test
     void getGisFromGcenOnlyCenterAtList() throws FileNotFoundException {
         int pageCnt = 1;
         int count = 10;
