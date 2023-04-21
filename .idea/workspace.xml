@@ -4,22 +4,936 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="multi module project 배포 오류 체크 1">
-      <change afterPath="$PROJECT_DIR$/hdel-common/src/main/java/com/hdel/common/util/ConverterUtil.java" afterDir="false" />
+    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="SpringSecurity 임시 삭제처리">
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper-dev/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper-dev/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper-prod/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper-prod/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/build/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/build/css/custom.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/build/images/back_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/build/images/back_enabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/build/images/back_enabled_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/build/images/forward_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/build/images/forward_enabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/build/images/forward_enabled_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/build/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/build/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/build/js/custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/css/docs.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/css/shCoreDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/less/spinning.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/scss/_spinning.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/images/layout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/images/min_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/images/min_menu.tiff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/images/welcome.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/images/welcome.tiff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/js/shBrushXml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/js/shCore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/chartjs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/chartjs2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/contacts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/css/maps/jquery-jvectormap-2.0.3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/e_commerce.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/echarts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/fixed_footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/fixed_sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/form_advanced.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/form_buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/form_upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/form_validation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/form_wizards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/general_elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/glyphicons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/images/american-express.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/images/cropper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/images/img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/images/inbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/images/mastercard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/images/media.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/images/paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/images/picture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/images/prod-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/images/prod-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/images/prod-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/images/prod-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/images/prod-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/images/visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/inbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/invoice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/js/datepicker/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/js/moment/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/level2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/media_gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/morisjs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/other_charts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/page_403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/page_404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/page_500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/plain_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/pricing_tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/project_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/projects.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/tables_dynamic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/widgets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/xx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/src/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/src/js/examples.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/src/js/helpers/smartresize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/src/scss/custom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/src/scss/daterangepicker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/.codeclimate.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/config.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/dist/Chart.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/dist/Chart.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/dist/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/dist/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/docs/00-Getting-Started.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/docs/01-Chart-Configuration.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/docs/02-Scales.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/docs/03-Line-Chart.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/docs/04-Bar-Chart.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/docs/05-Radar-Chart.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/docs/06-Polar-Area-Chart.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/docs/07-Pie-Doughnut-Chart.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/docs/08-Bubble-Chart.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/docs/09-Advanced.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/docs/10-Notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/karma.conf.ci.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/karma.coverage.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/AnimationCallbacks/progress-bar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/bar-horizontal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/bar-multi-axis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/bar-stacked.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/bar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/bubble.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/combo-bar-line.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/data_label_combo-bar-line.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/different-point-sizes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/doughnut.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/line-customTooltips.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/line-legend.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/line-logarithmic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/line-multi-axis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/line-skip-points.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/line-stacked-area.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/line-x-axis-filter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/line.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/pie-customTooltips.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/pie.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/polar-area.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/radar-skip-points.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/radar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/scatter-logX.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/scatter-multi-axis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/scatter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/timeScale/combo-time-scale.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/timeScale/line-time-point-data.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/timeScale/line-time-scale.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/samples/tooltip-hooks.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/charts/Chart.Bar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/charts/Chart.Bubble.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/charts/Chart.Doughnut.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/charts/Chart.Line.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/charts/Chart.PolarArea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/charts/Chart.Radar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/charts/Chart.Scatter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/controllers/controller.bar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/controllers/controller.bubble.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/controllers/controller.doughnut.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/controllers/controller.line.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/controllers/controller.polarArea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/controllers/controller.radar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/core/core.animation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/core/core.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/core/core.datasetController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/core/core.element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/core/core.helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/core/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/core/core.layoutService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/core/core.legend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/core/core.plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/core/core.scale.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/core/core.scaleService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/core/core.title.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/core/core.tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/elements/element.arc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/elements/element.line.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/elements/element.point.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/elements/element.rectangle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/scales/scale.category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/scales/scale.linear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/scales/scale.logarithmic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/scales/scale.radialLinear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/src/scales/scale.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/test/controller.bar.tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/test/controller.bubble.tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/test/controller.doughnut.tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/test/controller.line.tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/test/controller.polarArea.tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/test/controller.radar.tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/test/core.element.tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/test/core.helpers.tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/test/core.layoutService.tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/test/core.legend.tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/test/core.plugin.tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/test/core.scaleService.tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/test/core.title.tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/test/defaultConfig.tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/test/element.arc.tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/test/element.line.tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/test/element.point.tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/test/element.rectangle.tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/test/mockContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/test/scale.category.tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/test/scale.linear.tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/test/scale.logarithmic.tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/test/scale.radialLinear.tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/test/scale.time.tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/.babelrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/.github/CODEOWNERS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/.github/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/.github/ISSUE_TEMPLATE/bug.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/.github/ISSUE_TEMPLATE/bug_report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/.github/ISSUE_TEMPLATE/feature.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/.github/ISSUE_TEMPLATE/feature_request.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/.github/SUPPORT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/.stylelintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/.stylelintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/CNAME" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/Gemfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/_config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/build/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/build/banner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/build/build-plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/build/change-version.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/build/generate-sri.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/build/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/build/rollup.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/build/ship.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/build/svgo.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/build/vnu-jar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/dist/alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/dist/alert.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/dist/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/dist/button.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/dist/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/dist/carousel.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/dist/collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/dist/collapse.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/dist/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/dist/dropdown.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/dist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/dist/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/dist/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/dist/modal.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/dist/popover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/dist/popover.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/dist/scrollspy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/dist/scrollspy.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/dist/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/dist/tab.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/dist/toast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/dist/toast.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/dist/tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/dist/tooltip.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/dist/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/dist/util.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/src/alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/src/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/src/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/src/collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/src/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/src/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/src/popover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/src/scrollspy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/src/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/src/toast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/src/tools/sanitizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/src/tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/src/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/browsers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/integration/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/integration/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/integration/rollup.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/unit/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/unit/alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/unit/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/unit/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/unit/collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/unit/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/unit/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/unit/popover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/unit/scrollspy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/unit/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/unit/toast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/unit/tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/unit/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/visual/alert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/visual/button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/visual/carousel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/visual/collapse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/visual/dropdown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/visual/modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/visual/popover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/visual/scrollspy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/visual/tab.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/visual/toast.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/js/tests/visual/tooltip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/nuget/MyGet.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/nuget/bootstrap.nuspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/nuget/bootstrap.sass.nuspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/package.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_deprecate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_table-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_text-emphasis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_text-hide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/mixins/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/utilities/_align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/utilities/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/utilities/_embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/utilities/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/utilities/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/utilities/_overflow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/utilities/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/utilities/_screenreaders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/utilities/_shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/utilities/_stretched-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/utilities/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/vendor/_rfs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_data/breakpoints.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_data/browser-bugs.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_data/browser-features.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_data/colors.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_data/core-team.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_data/docs-versions.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_data/examples.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_data/grays.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_data/nav.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_data/theme-colors.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_data/translations.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/ads.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/analytics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/bugify.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/callout-danger-async-methods.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/callout-info-mediaqueries-breakpoints.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/callout-info-prefersreducedmotion.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/callout-warning-color-assistive-technologies.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/callout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/docs-navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/docs-sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/favicons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/icons/bootstrap-stack.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/icons/bootstrap.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/icons/download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/icons/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/icons/import.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/icons/lightning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/icons/menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/icons/opencollective.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/icons/placeholder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/icons/slack.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/icons/twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/scripts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/skippy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/social.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/stylesheet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_layouts/default.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_layouts/docs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_layouts/examples.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_layouts/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_layouts/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/about/brand.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/about/license.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/about/overview.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/about/team.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/about/translations.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/brand/bootstrap-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/brand/bootstrap-punchout.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/brand/bootstrap-social-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/brand/bootstrap-social.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/brand/bootstrap-solid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/css/docs.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/css/docs.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/bootstrap-themes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/bootstrap-themes@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/album.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/album@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/blog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/blog@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/carousel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/carousel@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/checkout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/checkout@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/cover@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/dashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/dashboard@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/floating-labels.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/floating-labels@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/grid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/grid@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/jumbotron.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/jumbotron@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/navbar-bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/navbar-bottom@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/navbar-fixed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/navbar-fixed@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/navbar-static.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/navbar-static@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/navbars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/navbars@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/offcanvas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/offcanvas@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/pricing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/pricing@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/product.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/product@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/sign-in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/sign-in@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/starter-template.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/starter-template@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/sticky-footer-navbar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/sticky-footer-navbar@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/sticky-footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/examples/sticky-footer@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/favicons/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/favicons/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/favicons/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/favicons/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/favicons/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/favicons/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/favicons/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/favicons/mstile-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/favicons/mstile-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/favicons/mstile-310x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/favicons/mstile-310x310.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/favicons/mstile-70x70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/img/favicons/safari-pinned-tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/js/docs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/js/src/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/js/src/ie-emulation-modes-warning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/js/src/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/js/vendor/anchor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/js/vendor/bs-custom-file-input.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/js/vendor/clipboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/js/vendor/jquery-slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/scss/_ads.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/scss/_algolia.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/scss/_anchor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/scss/_brand.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/scss/_browser-bugs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/scss/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/scss/_callouts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/scss/_clipboard-js.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/scss/_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/scss/_component-examples.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/scss/_content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/scss/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/scss/_masthead.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/scss/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/scss/_placeholder-img.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/scss/_sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/scss/_skippy.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/scss/_syntax.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/assets/scss/docs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/browser-bugs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/alerts.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/badge.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/breadcrumb.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/button-group.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/buttons.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/card.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/carousel.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/collapse.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/dropdowns.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/forms.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/input-group.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/jumbotron.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/list-group.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/media-object.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/modal.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/navbar.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/navs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/pagination.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/popovers.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/progress.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/scrollspy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/spinners.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/toasts.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/tooltips.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/content/code.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/content/figures.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/content/images.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/content/reboot.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/content/tables.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/content/typography.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/.stylelintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/album/album.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/album/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/blog/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/blog/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/carousel/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/carousel/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/checkout/form-validation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/checkout/form-validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/checkout/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/cover/cover.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/cover/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/dashboard/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/dashboard/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/dashboard/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/floating-labels/floating-labels.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/floating-labels/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/grid/grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/grid/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/jumbotron/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/jumbotron/jumbotron.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/navbar-bottom/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/navbar-fixed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/navbar-fixed/navbar-top-fixed.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/navbar-static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/navbar-static/navbar-top.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/navbars/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/navbars/navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/offcanvas/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/offcanvas/offcanvas.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/offcanvas/offcanvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/pricing/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/pricing/pricing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/product/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/product/product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/sign-in/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/sign-in/signin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/starter-template/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/starter-template/starter-template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/sticky-footer-navbar/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/sticky-footer-navbar/sticky-footer-navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/sticky-footer/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/sticky-footer/sticky-footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/extend/approach.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/extend/icons.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/getting-started/accessibility.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/getting-started/best-practices.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/getting-started/browsers-devices.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/getting-started/build-tools.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/getting-started/contents.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/getting-started/download.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/getting-started/introduction.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/getting-started/javascript.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/getting-started/theming.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/getting-started/webpack.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/layout/grid.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/layout/overview.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/layout/utilities-for-layout.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/migration.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/utilities/borders.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/utilities/clearfix.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/utilities/close-icon.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/utilities/colors.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/utilities/display.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/utilities/embed.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/utilities/flex.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/utilities/float.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/utilities/image-replacement.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/utilities/overflow.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/utilities/position.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/utilities/screen-readers.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/utilities/shadows.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/utilities/sizing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/utilities/spacing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/utilities/stretched-link.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/utilities/text.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/utilities/vertical-align.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/utilities/visibility.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/versions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/sw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/fastclick/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/fastclick/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/fastclick/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/fastclick/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/fastclick/lib/fastclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/css/font-awesome.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/AUTHORS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/dist/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/dist/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/dist/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/external/sizzle/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/external/sizzle/dist/sizzle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/external/sizzle/dist/sizzle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/external/sizzle/dist/sizzle.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/ajax/jsonp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/ajax/load.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/ajax/parseJSON.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/ajax/parseXML.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/ajax/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/ajax/var/location.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/ajax/var/nonce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/ajax/var/rquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/ajax/xhr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/attributes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/attributes/attr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/attributes/classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/attributes/prop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/attributes/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/attributes/val.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/callbacks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/core/access.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/core/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/core/parseHTML.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/core/ready.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/core/var/rsingleTag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/css/addGetHookIf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/css/adjustCSS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/css/curCSS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/css/defaultDisplay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/css/hiddenVisibleSelectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/css/showHide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/css/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/css/var/cssExpand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/css/var/getStyles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/css/var/isHidden.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/css/var/rmargin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/css/var/rnumnonpx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/css/var/swap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/data/Data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/data/var/acceptData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/data/var/dataPriv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/data/var/dataUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/deferred.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/deprecated.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/dimensions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/effects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/effects/Tween.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/effects/animatedSelector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/event/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/event/alias.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/event/focusin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/event/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/event/trigger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/exports/amd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/exports/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/intro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/manipulation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/manipulation/_evalUrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/manipulation/buildFragment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/manipulation/getAll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/manipulation/setGlobalEval.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/manipulation/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/manipulation/var/rcheckableType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/manipulation/var/rscriptType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/manipulation/var/rtagName.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/manipulation/wrapMap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/offset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/outro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/queue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/queue/delay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/selector-native.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/selector-sizzle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/selector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/serialize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/traversing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/traversing/findFilter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/traversing/var/dir.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/traversing/var/rneedsContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/traversing/var/siblings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/var/arr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/var/class2type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/var/concat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/var/document.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/var/documentElement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/var/hasOwn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/var/indexOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/var/pnum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/var/push.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/var/rcssNum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/var/rnotwhite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/var/slice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/var/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/var/toString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/jquery/src/wrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/nprogress/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/nprogress/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/nprogress/License.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/nprogress/Notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/nprogress/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/nprogress/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/nprogress/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/nprogress/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/nprogress/nprogress.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/nprogress/nprogress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/nprogress/support/extras.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/nprogress/support/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/fragments/content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/fragments/left.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/fragments/top.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/layout/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/sample/plain.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/thymeleaf/costManagementSystem/costManagement/costManagement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/thymeleaf/costManagementSystem/libs/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/thymeleaf/costManagementSystem/libs/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/thymeleaf/costManagementSystem/libs/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/thymeleaf/test/gentelella-master.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-common/src/main/java/CommonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-common/src/main/java/CommonApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/WebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SpringSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SpringSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestThymeleaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestThymeleaf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/util/TokenRequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/util/TokenRequestFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/test/java/com/hdel/web/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/test/java/com/hdel/web/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/logfile.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/logfile.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -109,33 +1023,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/HdelWeb/hdel/gradle/wrapper/bin&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "C:/HdelWeb/hdel/gradle",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.hdel.web.service.board" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\HdelWeb\hdel\gradle\wrapper\bin" />
-      <recent name="C:\HdelWeb\hdel\hdel-redis\src\main\resources" />
-      <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources" />
-      <recent name="C:\HdelWeb\hdel\hdel-web\src\main\java" />
-      <recent name="C:\HdelWeb\hdel\hdel-web\src" />
+      <recent name="C:\HdelWeb\hdel\gradle" />
+      <recent name="C:\HdelWeb\hdel\gradle\wrapper-prod" />
+      <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources\static\vendors" />
+      <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources\static" />
+      <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources\templates\thymeleaf\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources\templates\thymeleaf" />
       <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -462,7 +1377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681782933365</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="SpringSecurity 임시 삭제처리">
+      <created>1681891921216</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1681891921216</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -502,7 +1424,8 @@
     <MESSAGE value="NEXUS 세팅 완료에 따라 넥서스의 Repository 바라보도록 수정" />
     <MESSAGE value="NEXUS 세팅 완료에 따라 넥서스의 Repository 바라보도록 수정 &#10;-- 방화벽 / NEXUS 계정 설정 추후에.." />
     <MESSAGE value="multi module project 배포 오류 체크 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="multi module project 배포 오류 체크 1" />
+    <MESSAGE value="SpringSecurity 임시 삭제처리" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringSecurity 임시 삭제처리" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -568,11 +1491,6 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestController.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SpringSecurityConfig.java</url>
           <line>36</line>
           <option name="timeStamp" value="27" />
@@ -583,34 +1501,19 @@
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SpringSecurityConfig.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SpringSecurityConfig.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SwaggerConfig.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/WebMvcConfig.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/service/member/MemberService.java</url>
           <line>24</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/util/TokenRequestFilter.java</url>
-          <line>65</line>
+          <line>66</line>
           <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestThymeleaf.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

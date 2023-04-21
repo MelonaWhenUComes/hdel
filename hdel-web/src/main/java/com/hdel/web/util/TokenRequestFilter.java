@@ -22,14 +22,15 @@ import java.io.IOException;
 @Slf4j
 @RequiredArgsConstructor
 @Component
-
-public class TokenRequestFilter extends OncePerRequestFilter {
+//public class TokenRequestFilter extends OncePerRequestFilter {
+public class TokenRequestFilter {
     private final MemberService memberService;
     private final JwtUtil jwtUtil;
 
-    @Override
+    ///////////@Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
-        doFilter(request, response, filterChain);
+        /////////doFilter(request, response, filterChain);
+
 //
 //        try {
 //            if ("/member/login".equals(request.getRequestURI())) {

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- title -->
+    <title layout:title-pattern="$CONTENT_TITLE :: $LAYOUT_TITLE">sample</title>
+    <!-- /title -->
+
+    <!-- Bootstrap -->
+    <link th:href="@{/vendors/bootstrap/dist/css/bootstrap.min.css}" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link th:href="@{/vendors/font-awesome/css/font-awesome.min.css}" rel="stylesheet">
+    <!-- NProgress -->
+    <link th:href="@{/vendors/nprogress/nprogress.css}" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link th:href="@{/build/css/custom.min.css}" rel="stylesheet">
+
+    <!-- 사용자 스타일 영역 -->
+    <th:block layout:fragment="userStyle"></th:block>
+</head>
+
+<body class="nav-md">
+<div class="container body">
+    <div class="main_container">
+
+        <!-- left menu -->
+        <div th:replace="~{fragments/left::leftFragment}"></div>
+        <!-- left menu -->
+
+        <!-- top navigation -->
+        <div th:replace="~{fragments/top::topFragment}"></div>
+        <!-- /top navigation -->
+
+        <!-- page content -->
+        <div th:replace="~{fragments/content::contentFragment}"></div>
+        <!-- /page content -->
+
+        <!-- footer content -->
+        <footer th:replace="~{fragments/footer::footerFragment}"></footer>
+        <!-- /footer content -->
+
+    </div>
+</div>
+
+<!-- jQuery -->
+<script th:src="@{/vendors/jquery/dist/jquery.min.js}"></script>
+<!-- Bootstrap -->
+<script th:src="@{/vendors/bootstrap/dist/js/bootstrap.min.js}"></script>
+<!-- FastClick -->
+<script th:src="@{/vendors/fastclick/lib/fastclick.js}"></script>
+<!-- NProgress -->
+<script th:src="@{/vendors/nprogress/nprogress.js}"></script>
+
+<!-- Custom Theme Scripts -->
+<script th:src="@{/build/js/custom.min.js}"></script>
+
+<!-- 사용자 스크립트 영역 -->
+<th:block layout:fragment="userScript"></th:block>
+
+</body>
+</html>
