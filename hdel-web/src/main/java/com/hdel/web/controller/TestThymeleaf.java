@@ -16,7 +16,8 @@ public class TestThymeleaf {
     @RequestMapping(value = "/testTemplete",method = RequestMethod.GET)
     public String testTemplete(Model model){
         //model.addAttribute("hello","타임리프 테스트!");
-        return "/sample/plain";
+        //return "/sample/plain";
+        return "sample/plain";
     }
 }
 
