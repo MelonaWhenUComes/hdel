@@ -25,6 +25,29 @@ public class MemberController {
     private final MemberService userService;
     private final AuthenticationManager authenticationManager;
 
+    @PostMapping("/loginByJwt")
+    public ResponseEntity<Map<String, Object>> loginByJwt(@RequestBody Map<String, String> paramMap) {
+        String userId = paramMap.get("user_id");
+        String userPw = paramMap.get("user_pw");
+
+        UserDetails loginUser = userService.loadUserByUsername(userId); //userId로 정보 가져오기
+
+        Authentication authentication = authenticationManager.authenticate(     //가져온 정보와 입력한 비밀번호로 검증
+                new UsernamePasswordAuthenticationToken(loginUser, userPw)
+        );
+
+        SecurityContextHolder.getContext().setAuthentication(authentication);   // 검증 통과 후 authentication 세팅
+
+        String accessToken = jwtUtil.createToken(loginUser.getUsername(), loginUser.getUsername());     //accessToken 생성
+
+        Map<String, Object> result = new HashMap<>();
+        result.put("user_id", loginUser.getUsername());
+        result.put("user_token", accessToken);
+        result.put("user_role", loginUser.getAuthorities().stream().findFirst().get().getAuthority());
+
+        return ResponseEntity.ok(result);
+    }
+
     @PostMapping("/login")
     public ResponseEntity<Map<String, Object>> login(@RequestBody Map<String, String> paramMap) {
         String userId = paramMap.get("user_id");

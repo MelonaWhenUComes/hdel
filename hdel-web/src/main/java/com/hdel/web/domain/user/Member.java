@@ -20,6 +20,21 @@ public class Member {
     private String userId;
     @Column(nullable = true, name="USER_PW")
     private String userPw;
+
     @Column(nullable = true, name="USER_NAME")
     private String userName;
+
+    @Column(nullable = true, name="USER_EMAIL")
+    private String userEmail;
+
+    @Column(name="ROLE")
+    private Role role;
+
+    @Builder
+    public Member(String userId, String userPw, String userName, String userEmail) {
+        this.userId = userId;
+        this.userPw = userPw;
+        this.userName = userName;
+        this.userEmail = userEmail;
+    }
 }

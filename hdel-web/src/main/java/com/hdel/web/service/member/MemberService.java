@@ -21,13 +21,13 @@ public class MemberService implements UserDetailsService {
     private final MemberRepository memberRepository;
 
     @Override
-    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+    public UserDetails loadUserByUsername(String userId) throws UsernameNotFoundException {
         List<GrantedAuthority> authorities = new ArrayList<>();
 
-        Member member = memberRepository.findByUserId(username)
+        Member member = memberRepository.findByUserId(userId)
                 .orElseThrow(() -> new UsernameNotFoundException("사용자를 찾을 수 없습니다."));
 
-        if (member.getUserId().equals(username)) {
+        if (member.getUserId().equals(userId)) {
             authorities.add(new SimpleGrantedAuthority("ROLE_USER"));
         }
 

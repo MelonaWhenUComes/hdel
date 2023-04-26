@@ -1,5 +1,6 @@
 package com.hdel.web.config;
 
+import com.hdel.web.domain.user.Role;
 import com.hdel.web.service.member.MemberService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
@@ -37,25 +38,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        /*************
-        http
-                .authorizeRequests()
-                //.antMatchers("/chk").permitAll()    // LoadBalancer Chk
-//                .antMatchers(
-         // swagger v2
-//                        "/v2/api-docs",
-//                        "/swagger-resources",
-//                        "/swagger-resources/**",
-//                        "/configuration/ui",
-//                        "/configuration/security",
-//                        "/swagger-ui.html",
-//                        "/webjars/**",
-//                        // swagger v3
-//                        "/v3/api-docs/**",
-//                        "/swagger-ui/**"
-//                        ).permitAll()
-                .antMatchers("/").permitAll();
-        ***********/
+        /******* All Authority
         http
                 .csrf().disable()
                 .authorizeRequests()
@@ -66,8 +49,26 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
                 .anyRequest()
                 .authenticated()
                 ;
-
-
+        ********/
+        http
+                .csrf().disable()
+                .headers().frameOptions().disable()
+                .and()
+                    .authorizeRequests()
+                    .antMatchers("/", "/css/**", "/images/**", "")
+                    .permitAll()
+                    .antMatchers("/api/*", "/member/*").hasRole(Role.USER.name())
+                    .anyRequest().authenticated()
+                .and()
+                    .logout()
+                    .logoutSuccessUrl("/")
+                /*** oauth2
+                .and()
+                    .oauth2Login()
+                        .userInfoEndpoint()
+                            .userService()
+                 ****/
+                ;
     }
 
     @Override
