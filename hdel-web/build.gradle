@@ -51,6 +51,10 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
     implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
+    //compile 'org.springframework.boot:spring-boot-devtools'
+
+    //mustache
+    implementation('org.springframework.boot:spring-boot-starter-mustache')
 
     //webClient
     implementation 'org.springframework.boot:spring-boot-starter-webflux'

@@ -49,26 +49,15 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
                 .anyRequest()
                 .authenticated()
                 ;
-        ********/
-        http
-                .csrf().disable()
-                .headers().frameOptions().disable()
-                .and()
-                    .authorizeRequests()
-                    .antMatchers("/", "/css/**", "/images/**", "")
-                    .permitAll()
-                    .antMatchers("/api/*", "/member/*").hasRole(Role.USER.name())
-                    .anyRequest().authenticated()
-                .and()
-                    .logout()
-                    .logoutSuccessUrl("/")
-                /*** oauth2
-                .and()
-                    .oauth2Login()
-                        .userInfoEndpoint()
-                            .userService()
-                 ****/
-                ;
+         **/
+        http.antMatcher("/**")
+                .authorizeRequests()
+                .antMatchers("/", "/h2-console/**", "/favicon.ico").permitAll()
+                .anyRequest().authenticated()
+                .and().logout().logoutSuccessUrl("/").permitAll()
+                .and().headers().frameOptions().sameOrigin()
+                .and().csrf().disable();
+
     }
 
     @Override
@@ -85,8 +74,6 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
         web.ignoring().antMatchers("/**");
         //web.ignoring().antMatchers("/");
     }
-
-
 
 }
 
