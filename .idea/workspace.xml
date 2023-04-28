@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="로그인 개발중 ...">
+    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/index.mustache" afterDir="false" />
     </list>
@@ -507,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682661287496</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="test">
+      <created>1682662813592</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1682662813592</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -526,7 +533,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="slave" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -550,7 +584,8 @@
     <MESSAGE value="SpringSecurity 임시 삭제처리" />
     <MESSAGE value="gradle wrapper 운영 / 개발 분리" />
     <MESSAGE value="로그인 개발중 ..." />
-    <option name="LAST_COMMIT_MESSAGE" value="로그인 개발중 ..." />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
