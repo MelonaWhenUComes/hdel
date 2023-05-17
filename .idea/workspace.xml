@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="test M1">
+    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="test S4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/index.mustache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
     </option>
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="master" />
+    <option name="BRANCH" value="slave" />
   </component>
   <component name="Git.Rebase.Settings">
     <option name="NEW_BASE" value="master" />
@@ -84,7 +83,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="slave" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -519,7 +518,42 @@
       <option name="project" value="LOCAL" />
       <updated>1682664854609</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="test S3">
+      <created>1682665747199</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1682665747199</updated>
+    </task>
+    <task id="LOCAL-00033" summary="test M1">
+      <created>1682665825555</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1682665825555</updated>
+    </task>
+    <task id="LOCAL-00034" summary="test S2">
+      <created>1682665840182</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1682665840182</updated>
+    </task>
+    <task id="LOCAL-00035" summary="test S3">
+      <created>1682667924329</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1682667924329</updated>
+    </task>
+    <task id="LOCAL-00036" summary="test S4">
+      <created>1682667943872</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1682667943872</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -544,7 +578,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -591,7 +625,10 @@
     <MESSAGE value="로그인 개발중 ..." />
     <MESSAGE value="test" />
     <MESSAGE value="test M1" />
-    <option name="LAST_COMMIT_MESSAGE" value="test M1" />
+    <MESSAGE value="test S2" />
+    <MESSAGE value="test S3" />
+    <MESSAGE value="test S4" />
+    <option name="LAST_COMMIT_MESSAGE" value="test S4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
