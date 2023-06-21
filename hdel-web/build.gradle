@@ -68,6 +68,9 @@ dependencies {
     implementation group: 'commons-io', name: 'commons-io', version: '2.4'
     implementation group: 'org.apache.tika', name: 'tika-core', version: '2.3.0'
 
+    //oauth2 등록
+    implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
+    
     //
     implementation 'javax.validation:validation-api:2.0.1.Final'
     implementation 'com.auth0:java-jwt:3.14.0'

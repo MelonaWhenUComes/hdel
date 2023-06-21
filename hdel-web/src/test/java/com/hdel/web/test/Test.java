@@ -2,7 +2,7 @@ package com.hdel.web.test;
 
 import com.hdel.web.domain.publicAddr.PublicAddress;
 import com.hdel.web.domain.publicAddr.PublicAddressRepository;
-import com.hdel.web.domain.user.MemberRepository;
+import com.hdel.web.domain.member.MemberRepository;
 import com.hdel.web.service.common.ApiHttpRequest;
 //import com.hdel.web.service.common.ConverterUtil;
 import com.hdel.common.util.ConverterUtil;

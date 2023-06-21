@@ -1,7 +1,7 @@
 package com.hdel.web.service.member;
 
-import com.hdel.web.domain.user.Member;
-import com.hdel.web.domain.user.MemberRepository;
+import com.hdel.web.domain.member.Member;
+import com.hdel.web.domain.member.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

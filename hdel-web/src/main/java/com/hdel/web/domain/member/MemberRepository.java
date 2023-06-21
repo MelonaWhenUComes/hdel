@@ -1,4 +1,4 @@
-package com.hdel.web.domain.user;
+package com.hdel.web.domain.member;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

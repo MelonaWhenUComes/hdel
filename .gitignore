@@ -40,3 +40,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### ycchang oauth 예외
+appplication-oauth.yml

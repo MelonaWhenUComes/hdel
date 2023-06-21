@@ -1,4 +1,4 @@
-package com.hdel.web.domain.user;
+package com.hdel.web.domain.member;
 
 import lombok.*;
 
@@ -16,25 +16,37 @@ public class Member {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = true, name="USER_ID")
+    @Column(nullable = false, name="USER_ID")
     private String userId;
-    @Column(nullable = true, name="USER_PW")
+    @Column(nullable = false, name="USER_PW")
     private String userPw;
 
-    @Column(nullable = true, name="USER_NAME")
+    @Column(nullable = false, name="USER_NAME")
     private String userName;
 
-    @Column(nullable = true, name="USER_EMAIL")
+    @Column(nullable = false, name="USER_EMAIL")
     private String userEmail;
 
+    @Enumerated(EnumType.STRING)
     @Column(name="ROLE")
     private Role role;
 
     @Builder
-    public Member(String userId, String userPw, String userName, String userEmail) {
+    public Member(String userId, String userPw, String userName, String userEmail, Role role) {
         this.userId = userId;
         this.userPw = userPw;
         this.userName = userName;
         this.userEmail = userEmail;
+        this.role = role;
+    }
+
+    public String getRoleKey() {
+        return this.role.getKey();
+    }
+
+    public Member update(String userName) {
+        this.userName = userName;
+
+        return this;
     }
 }

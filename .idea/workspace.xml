@@ -4,8 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="test S4">
+    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="bootstrap">
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/auth/CustomOAuth2UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/auth/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/auth/dto/OAuthAttributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/auth/dto/SessionUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/application-oauth.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SpringSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SpringSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/member/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/member/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/domain/user/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/domain/member/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/domain/user/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/domain/member/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/domain/user/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/domain/member/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/service/member/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/service/member/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/index.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/layout/footer.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/layout/footer.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/layout/header.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/layout/header.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/test/java/com/hdel/web/domain/user/PublicAddressRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/test/java/com/hdel/web/domain/member/PublicAddressRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/test/java/com/hdel/web/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/test/java/com/hdel/web/test/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +130,7 @@
   <component name="ProjectId" id="2KG6mcsYHx7SmRYz6sMMzXjpFPi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -122,7 +142,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/HdelWeb/hdel/hdel-web/src/main/resources/templates&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/HdelWeb/hdel/hdel-web/src/main/resources&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -134,11 +154,11 @@
       <recent name="com.hdel.web.service.board" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources" />
       <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources\templates" />
       <recent name="C:\HdelWeb\hdel\gradle" />
       <recent name="C:\HdelWeb\hdel\gradle\wrapper-prod" />
       <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources\static\vendors" />
-      <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources\static" />
@@ -153,25 +173,24 @@
       <recent name="com.hdel.web.domain.user" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hdel.web.config.auth" />
       <recent name="util" />
       <recent name="com.hdel.web.test" />
       <recent name="com.hdel.web.config" />
       <recent name="com.hdel.web.domain.board" />
-      <recent name="com.hdel.web.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MemberRepositoryTest.test_1">
-    <configuration name="MemberRepositoryTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hdel.hdel-web.test" />
+  <component name="RunManager" selected="Application.WebApplication">
+    <configuration name="WebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hdel.web.WebApplication" />
+      <module name="hdel.hdel-web.main" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=local" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hdel.web.domain.user.*" />
+          <option name="PATTERN" value="com.hdel.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hdel.web.domain.user" />
-      <option name="MAIN_CLASS_NAME" value="com.hdel.web.domain.user.MemberRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -180,15 +199,13 @@
       <module name="hdel.hdel-web.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hdel.web.domain.user.*" />
+          <option name="PATTERN" value="com.hdel.web.domain.member.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.hdel.web.domain.user" />
       <option name="MAIN_CLASS_NAME" value="com.hdel.web.domain.user.MemberRepositoryTest" />
-      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=local" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,7 +214,7 @@
       <module name="hdel.hdel-web.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hdel.web.domain.user.*" />
+          <option name="PATTERN" value="com.hdel.web.domain.member.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -275,20 +292,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.WebApplication" />
       <item itemvalue="JUnit.MemberRepositoryTest.test_1" />
       <item itemvalue="JUnit.MemberRepositoryTest" />
       <item itemvalue="JUnit.Test" />
       <item itemvalue="JUnit.Test.getGisFromGcen" />
       <item itemvalue="JUnit.Test.getGisFromGcenAtList" />
-      <item itemvalue="JUnit.MemberRepositoryTest (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MemberRepositoryTest (1)" />
+        <item itemvalue="Application.WebApplication" />
         <item itemvalue="JUnit.Test.getGisFromGcenAtList" />
         <item itemvalue="JUnit.Test.getGisFromGcen" />
         <item itemvalue="JUnit.Test" />
-        <item itemvalue="JUnit.MemberRepositoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -553,7 +569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682667943872</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="bootstrap">
+      <created>1684297723720</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1684297723720</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -628,7 +651,8 @@
     <MESSAGE value="test S2" />
     <MESSAGE value="test S3" />
     <MESSAGE value="test S4" />
-    <option name="LAST_COMMIT_MESSAGE" value="test S4" />
+    <MESSAGE value="bootstrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="bootstrap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -654,7 +678,7 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/hdel-web/src/test/java/com/hdel/web/domain/user/MemberRepositoryTest.java</url>
+          <url>file://$PROJECT_DIR$/hdel-web/src/test/java/com/hdel/web/domain/member/MemberRepositoryTest.java</url>
           <line>25</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
@@ -695,13 +719,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SpringSecurityConfig.java</url>
-          <line>37</line>
+          <line>40</line>
           <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/member/MemberController.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/service/member/MemberService.java</url>
@@ -717,6 +736,26 @@
           <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestThymeleaf.java</url>
           <line>11</line>
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/member/MemberController.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SpringSecurityConfig.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/member/MemberController.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/auth/CustomOAuth2UserService.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
