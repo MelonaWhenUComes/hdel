@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
@@ -32,7 +33,15 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter
                 .headers().frameOptions().disable()
                 .and()
                     .authorizeRequests()
-                    .antMatchers("/","/h2-console/**", "/favicon.ico").permitAll()
+                    .antMatchers("/","/h2-console/**"
+                            , "/favicon.ico"
+                            , "/swagger-resources/**"
+                            , "/swagger*/**"
+                            , "/v3/api-docs/"
+                            , "/swagger-ui.html"
+                            , "/v2/api-docs"
+                            , "/webjars/**"
+                    ).permitAll()
                     .antMatchers("/api/v1/**").hasRole(Role.USER.name()) // user 권한 보유자
                     .anyRequest().authenticated()
                 .and()
@@ -45,5 +54,17 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter
 
     }
 
+    @Override
+    public void configure(WebSecurity web) throws Exception {
+        web.ignoring().antMatchers("/static/css/**, /static/js/**, *.ico");
+
+        // swagger
+        web.ignoring().antMatchers(
+                "/v2/api-docs",  "/configuration/ui",
+                "/swagger-resources", "/configuration/security",
+                "/swagger-ui.html", "/webjars/**","/swagger/**",
+                "/v3/api-docs/"
+            );
+    }
 }
 

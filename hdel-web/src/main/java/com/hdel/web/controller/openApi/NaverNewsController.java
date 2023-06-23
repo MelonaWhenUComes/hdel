@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/openApi")
+@RequestMapping("/api/v1/openApi")
 @CrossOrigin
 public class NaverNewsController {
     @Autowired

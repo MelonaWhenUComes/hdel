@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @Controller
-@RequestMapping("/comm")
+@RequestMapping("/api/v1/comm")
 public class TestController {
 
     private final HoInfoService hoInfoService;

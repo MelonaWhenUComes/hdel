@@ -5,26 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="bootstrap">
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/auth/CustomOAuth2UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/auth/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/auth/dto/OAuthAttributes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/auth/dto/SessionUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/application-oauth.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SpringSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SpringSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/auth/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/auth/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/HoInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/HoInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestKakaoLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestKakaoLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestNaverLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestNaverLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/board/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/board/BoardController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/member/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/member/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/domain/user/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/domain/member/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/domain/user/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/domain/member/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/domain/user/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/domain/member/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/service/member/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/service/member/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/index.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/layout/footer.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/layout/footer.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/layout/header.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/layout/header.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/test/java/com/hdel/web/domain/user/PublicAddressRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/test/java/com/hdel/web/domain/member/PublicAddressRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/test/java/com/hdel/web/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/test/java/com/hdel/web/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/openApi/GovApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/openApi/GovApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/openApi/NaverNewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/openApi/NaverNewsController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

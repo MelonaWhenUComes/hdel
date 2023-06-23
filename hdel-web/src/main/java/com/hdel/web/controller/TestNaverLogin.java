@@ -16,7 +16,7 @@ import java.util.HashMap;
 
 @RestController
 @CrossOrigin
-@RequestMapping("/naverApi")
+@RequestMapping("/api/v1/naverApi")
 public class TestNaverLogin {
     private String naverRestApiKey = "2ebc16cf71ceca131836536e7d42a964";
     public static final Logger logger = LoggerFactory.getLogger(TestNaverLogin.class);

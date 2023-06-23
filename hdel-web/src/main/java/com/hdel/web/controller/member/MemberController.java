@@ -19,7 +19,7 @@ import java.util.Map;
 @RequiredArgsConstructor
 @CrossOrigin
 @RestController
-@RequestMapping("/member")
+@RequestMapping("/api/v1/member")
 public class MemberController {
     private final JwtUtil jwtUtil;
     private final MemberService userService;

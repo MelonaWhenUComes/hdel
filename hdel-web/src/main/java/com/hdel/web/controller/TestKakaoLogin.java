@@ -17,7 +17,7 @@ import java.util.HashMap;
 
 @RestController
 @CrossOrigin
-@RequestMapping("/kakaoApi")
+@RequestMapping("/api/v1/kakaoApi")
 public class TestKakaoLogin {
     private String kakaoRestApiKey = "2ebc16cf71ceca131836536e7d42a964";
     public static final Logger logger = LoggerFactory.getLogger(TestKakaoLogin.class);

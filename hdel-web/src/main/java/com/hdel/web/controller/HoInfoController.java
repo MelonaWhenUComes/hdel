@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping("/hoInfo")
+@RequestMapping("/api/v1/hoInfo")
 @CrossOrigin
 public class HoInfoController {
     @Autowired
