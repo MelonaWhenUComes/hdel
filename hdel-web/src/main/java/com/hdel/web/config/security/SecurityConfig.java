@@ -1,5 +1,7 @@
-package com.hdel.web.config.auth;
+package com.hdel.web.config.security;
 
+import com.hdel.web.auth.CustomOAuth2UserService;
+import com.hdel.web.auth.OAuth2AuthenticationSuccessHandler;
 import com.hdel.web.domain.member.Role;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
@@ -18,7 +20,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter
 {
 //oauth2 추가
     private final CustomOAuth2UserService customOAuth2UserService;
-
+    private final OAuth2AuthenticationSuccessHandler oAuth2AuthenticationSuccessHandler;
     @Override
     @Bean
     public AuthenticationManager authenticationManagerBean() throws Exception {
@@ -41,8 +43,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter
                             , "/swagger-ui.html"
                             , "/v2/api-docs"
                             , "/webjars/**"
+                            , "/api/v1/member/**"
+                            , "/test/*"
                     ).permitAll()
-                    .antMatchers("/api/v1/**").hasRole(Role.USER.name()) // user 권한 보유자
+                    //.antMatchers("/api/v1/**").hasRole(Role.USER.name()) // user 권한 보유자
                     .anyRequest().authenticated()
                 .and()
                     .logout()
@@ -50,7 +54,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter
                 .and()
                     .oauth2Login()
                         .userInfoEndpoint()
-                .userService(customOAuth2UserService);
+                        .userService(customOAuth2UserService)
+                    .and()
+                        .successHandler(oAuth2AuthenticationSuccessHandler);
 
     }
 

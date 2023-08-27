@@ -1,4 +1,4 @@
-package com.hdel.web.config.auth.dto;
+package com.hdel.web.auth.dto;
 
 import com.hdel.web.domain.member.Member;
 import com.hdel.web.domain.member.Role;
@@ -23,12 +23,15 @@ public class OAuthAttributes {
     }
 
     public static OAuthAttributes of(String registrationId, String userNameAttributeName, Map<String, Object> attributes) {
-        return ofGoogle(userNameAttributeName, attributes);
+        if(registrationId.equals("google")) {
+            return ofGoogle(userNameAttributeName, attributes);
+        }
+        return null;
     }
     private static OAuthAttributes ofGoogle(String userNameAttributeName, Map<String, Object> attributes) {
         return OAuthAttributes.builder()
-                .userName((String)attributes.get("userName"))
-                .userEmail((String)attributes.get("userEmail"))
+                .userName((String)attributes.get("name"))
+                .userEmail((String)attributes.get("email"))
                 .attributes(attributes)
                 .nameAttributeKey(userNameAttributeName)
                 .build();
@@ -36,9 +39,9 @@ public class OAuthAttributes {
 
     public Member toEntity() {
         return Member.builder()
-                .userName("userName")
-                .userEmail("userEmail")
-                .role(Role.GUEST)
+                .userName(userName)
+                .userEmail(userEmail)
+                .userRole(Role.GUEST)
                 .build();
     }
 }

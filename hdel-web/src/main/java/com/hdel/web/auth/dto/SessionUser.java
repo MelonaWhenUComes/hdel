@@ -1,4 +1,4 @@
-package com.hdel.web.config.auth.dto;
+package com.hdel.web.auth.dto;
 
 import com.hdel.web.domain.member.Member;
 import lombok.Getter;

@@ -14,6 +14,14 @@
               <button type="submit" class="w3-button w3-green w3-round">Login</button>
             </p>
           </form>
+          <!-- -->
+          <form>
+            <a href="http://localhost:8091/oauth2/authorize/google"> google login </a>
+          </form>
+          
+        </div>
+        <div class="common-buttons">
+          <button type="button" class="w3-button w3-round w3-blue-gray" v-on:click="googleLogin">Google</button>&nbsp;
         </div>
       </div>
     </div>
@@ -58,7 +66,28 @@
         this.$router.push({
           name: 'BoardList'
         })
-      }
+      }, 
+      
+      /////////////////////////////////
+      googleLogin() {
+        let apiUrl = this.$serverUrl + '/oauth2/authorize/google'
+        this.form = {
+          "idx": this.idx,
+          "title": this.title,
+          "contents": this.contents,
+          "author": this.author
+        }
+      this.$axios.post(apiUrl, this.form)
+      .then((res) => {
+          alert('OOOOOOOOOOOOOOOO')
+          this.fnView(res.data.idx)
+        }).catch((err) => {
+          if (err.message.indexOf('Network Error') > -1) {
+            alert('네트워크가 원활하지 않습니다.\n잠시 후 다시 시도해주세요.')
+          }
+        })
+    }
+
     },
     computed: {
       ...mapGetters({

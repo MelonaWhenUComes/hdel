@@ -1,5 +1,5 @@
 server:
-  port: 8091
+  port: 8101
   servlet:
     encoding:
       force-response: true
@@ -7,8 +7,6 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
-  profiles:
-    include: oauth
 
 ---
 spring:
@@ -64,12 +62,6 @@ mybatis:
     - classpath:mybatis/mapper/*.xml
   config-location: classpath:mybatis-config.xml.bak
 
-app:
-  api:
-    X-Naver-Client-Id: KvsDv5DxEwAf2L8DXwdN
-    X-Naver-Client-Secret: WVY_kT9KeP
-    Naver-News-URI: https://openapi.naver.com/v1/search/news.json
-
 logging:
   config: classpath:log4j2.yml
   level:
@@ -81,9 +73,6 @@ security:
   basic:
     enabled: false
 
-#jwt:
-#  secret: AAAAAAAAAAAAAAAAAABBBBCCCCDDDDEEEEFFFFGGGG123!@#
-
 # cors 설정
 cors:
   allowed-origins: 'http://localhost:8080'
@@ -92,7 +81,7 @@ cors:
   max-age: 3600
 
 server:
-  port: 8091
+  port: 8101
 
 
 ---
@@ -127,23 +116,6 @@ spring:
       dialect: org.hibernate.dialect.MariaDB103Dialect
     defer-datasource-initialization: true
 
-mybatis:
-  configuration:
-    multiple-result-sets-enabled: false
-    map-underscore-to-camel-case: true
-    call-setters-on-nulls: true
-    jdbc-type-for-null: varchar
-    default-fetch-size: 500
-  mapper-locations:
-    - classpath:mybatis/mapper/*.xml
-  config-location: classpath:mybatis-config.xml.bak
-
-app:
-  api:
-    X-Naver-Client-Id: KvsDv5DxEwAf2L8DXwdN
-    X-Naver-Client-Secret: WVY_kT9KeP
-    Naver-News-URI: https://openapi.naver.com/v1/search/news.json
-
 logging:
   config: classpath:log4j2.yml
   level:
@@ -154,7 +126,7 @@ jwt:
   secret: AAAABBBBCCCCDDDDEEEEFFFFGGGG123!@#
 
 server:
-  port: 8092
+  port: 8102
 #port: 80
 
 ---
@@ -189,32 +161,11 @@ spring:
       dialect: org.hibernate.dialect.MariaDB103Dialect
     defer-datasource-initialization: true
 
-mybatis:
-  configuration:
-    multiple-result-sets-enabled: false
-    map-underscore-to-camel-case: true
-    call-setters-on-nulls: true
-    jdbc-type-for-null: varchar
-    default-fetch-size: 500
-  mapper-locations:
-    - classpath:mybatis/mapper/*.xml
-  config-location: classpath:mybatis-config.xml.bak
-
-app:
-  api:
-    X-Naver-Client-Id: KvsDv5DxEwAf2L8DXwdN
-    X-Naver-Client-Secret: WVY_kT9KeP
-    Naver-News-URI: https://openapi.naver.com/v1/search/news.json
-
 logging:
   config: classpath:log4j2.yml
   level:
     org.hibernate.SQL: debug
     org.hibernate.type: trace
 
-
-jwt:
-  secret: AAAABBBBCCCCDDDDEEEEFFFFGGGG123!@#
-
 server:
-  port: 8093
+  port: 8102

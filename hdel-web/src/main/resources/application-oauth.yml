@@ -4,7 +4,10 @@ spring:
       client:
         registration:
           google:
-            client-id: aaaa
-            client-secret: bbbb
+            client-id: 280308711016-3dmiid7da9q5184cc5dvb2i732anevrm.apps.googleusercontent.com
+            client-secret: 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
+            #redirect-uri: http://localhost:8080/login/oauth2/code/google
+            #redirect-uri: http://localhost:8091/login/oauth2/code/google
             scope: profile,email
-
+#jwt secret key
+jwt.secret: '12345678901234567890AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'

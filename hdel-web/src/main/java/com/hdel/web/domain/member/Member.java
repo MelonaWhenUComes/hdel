@@ -16,9 +16,9 @@ public class Member {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = false, name="USER_ID")
+    @Column(name="USER_ID")
     private String userId;
-    @Column(nullable = false, name="USER_PW")
+    @Column(name="USER_PW")
     private String userPw;
 
     @Column(nullable = false, name="USER_NAME")
@@ -28,20 +28,20 @@ public class Member {
     private String userEmail;
 
     @Enumerated(EnumType.STRING)
-    @Column(name="ROLE")
-    private Role role;
+    @Column(name="USER_ROLE")
+    private Role userRole;
 
     @Builder
-    public Member(String userId, String userPw, String userName, String userEmail, Role role) {
+    public Member(String userId, String userPw, String userName, String userEmail, Role userRole) {
         this.userId = userId;
         this.userPw = userPw;
         this.userName = userName;
         this.userEmail = userEmail;
-        this.role = role;
+        this.userRole = userRole;
     }
 
     public String getRoleKey() {
-        return this.role.getKey();
+        return this.userRole.getKey();
     }
 
     public Member update(String userName) {

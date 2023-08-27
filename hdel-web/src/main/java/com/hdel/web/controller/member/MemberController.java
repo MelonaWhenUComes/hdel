@@ -25,7 +25,7 @@ public class MemberController {
     private final MemberService userService;
     private final AuthenticationManager authenticationManager;
 
-    @PostMapping("/loginByJwt")
+    @GetMapping("/loginByJwt")
     //public ResponseEntity<Map<String, Object>> loginByJwt(@RequestBody Map<String, String> paramMap) {
     public ResponseEntity<Map<String, Object>> loginByJwt(String userId,String userPw ) {
 //        Map<String, String> paramMap = new HashMap<>();

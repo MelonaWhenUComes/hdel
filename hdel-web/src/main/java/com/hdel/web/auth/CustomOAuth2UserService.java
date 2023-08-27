@@ -1,12 +1,9 @@
-package com.hdel.web.config.auth;
+package com.hdel.web.auth;
 
-import com.hdel.web.config.auth.dto.OAuthAttributes;
-import com.hdel.web.config.auth.dto.SessionUser;
+import com.hdel.web.auth.dto.OAuthAttributes;
 import com.hdel.web.domain.member.Member;
 import com.hdel.web.domain.member.MemberRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.context.annotation.Bean;
-import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.oauth2.client.userinfo.DefaultOAuth2UserService;
 import org.springframework.security.oauth2.client.userinfo.OAuth2UserRequest;
@@ -39,7 +36,8 @@ public class CustomOAuth2UserService implements OAuth2UserService<OAuth2UserRequ
 
         Member member = saveOrUpdate(attributes);
 
-        httpSession.setAttribute("member", new SessionUser(member));
+        //session 방식에서 변경 20230711 Success Handler 에서 Token 처리함
+        //httpSession.setAttribute("member", new SessionUser(member));
 
         return new DefaultOAuth2User(Collections.singleton(new SimpleGrantedAuthority(member.getRoleKey())), attributes.getAttributes(), attributes.getNameAttributeKey());
     }

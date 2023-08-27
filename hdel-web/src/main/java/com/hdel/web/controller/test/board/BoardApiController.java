@@ -1,4 +1,4 @@
-package com.hdel.web.controller.board;
+package com.hdel.web.controller.test.board;
 
 import com.hdel.web.domain.board.Board;
 import com.hdel.web.dto.board.BoardDto;
@@ -7,17 +7,15 @@ import lombok.RequiredArgsConstructor;
 import model.Header;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
-import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/board")
 @CrossOrigin
 @RequiredArgsConstructor
-public class BoardController {
+public class BoardApiController {
     public final BoardService boardService;
 
     @GetMapping("/list")

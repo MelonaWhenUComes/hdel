@@ -44,3 +44,9 @@ project(':hdel-redis') {
         implementation project(':hdel-common')
     }
 }
+
+project(':hdel-service-document') {
+    dependencies {
+        implementation project(':hdel-common')
+    }
+}

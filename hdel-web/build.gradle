@@ -76,9 +76,8 @@ dependencies {
     implementation 'com.auth0:java-jwt:3.14.0'
 
     // jwt 관련 의존성
-//    compile group: 'io.jsonwebtoken', name: 'jjwt-api', version: '0.11.2'
-//    runtime group: 'io.jsonwebtoken', name: 'jjwt-impl', version: '0.11.2'
-//    runtime group: 'io.jsonwebtoken', name: 'jjwt-jackson', version: '0.11.2'
+    implementation 'io.jsonwebtoken:jjwt-api:0.11.2'
+    implementation 'io.jsonwebtoken:jjwt-jackson:0.11.2'
 }
 
 test {

@@ -7,13 +7,15 @@ import org.springframework.data.web.PageableHandlerMethodArgumentResolver;
 import org.springframework.data.web.SortHandlerMethodArgumentResolver;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import java.util.List;
 
 @Configuration
+@EnableWebMvc
 public class WebMvcConfig implements WebMvcConfigurer {
-
+    private final long MAX_AGE_SECS = 3600;
     public void addArgumentResolvers(List<HandlerMethodArgumentResolver> argumentResolvers) {
         SortHandlerMethodArgumentResolver sortArgumentResolver = new SortHandlerMethodArgumentResolver();
         sortArgumentResolver.setSortParameter("sortBy");
@@ -24,5 +26,14 @@ public class WebMvcConfig implements WebMvcConfigurer {
         pageableArgumentResolver.setMaxPageSize(500);
         pageableArgumentResolver.setFallbackPageable(PageRequest.of(0, 10));
         argumentResolvers.add(pageableArgumentResolver);
+    }
+    @Override
+    public void addCorsMappings(CorsRegistry registry) {
+        registry.addMapping("/**")
+                .allowedOriginPatterns("*")
+                .allowedMethods("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS")
+                .allowedHeaders("*")
+                .allowCredentials(true)
+                .maxAge(MAX_AGE_SECS);
     }
 }

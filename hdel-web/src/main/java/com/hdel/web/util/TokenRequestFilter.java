@@ -22,44 +22,46 @@ import java.io.IOException;
 @Slf4j
 @RequiredArgsConstructor
 @Component
-//public class TokenRequestFilter extends OncePerRequestFilter {
+///////// delete OLD SOURCE
+// public class TokenRequestFilter extends OncePerRequestFilter {
 public class TokenRequestFilter {
     private final MemberService memberService;
     private final JwtUtil jwtUtil;
-
-    ///////////@Override
+    ///////delete
+    //@Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
-        /////////doFilter(request, response, filterChain);
+        ///////doFilter(request, response, filterChain);
 
-//
-//        try {
-//            if ("/member/login".equals(request.getRequestURI())) {
-//                doFilter(request, response, filterChain);
-//            } else {
-//                String token = parseJwt(request);
-//                if (token == null) {
-//                    response.sendError(403);    //accessDenied
-//                } else {
-//                    DecodedJWT tokenInfo = jwtUtil.decodeToken(token);
-//                    if (tokenInfo != null) {
-//                        String userId = tokenInfo.getClaim("userId").asString();
-//                        UserDetails loginUser = memberService.loadUserByUsername(userId);
-//                        UsernamePasswordAuthenticationToken authentication = new UsernamePasswordAuthenticationToken(
-//                                loginUser, null, loginUser.getAuthorities()
-//                        );
-//
-//                        authentication.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
-//                        SecurityContextHolder.getContext().setAuthentication(authentication);
-//                        doFilter(request, response, filterChain);
-//
-//                    } else {
-//                        log.error("### TokenInfo is Null");
-//                    }
-//                }
-//            }
-//        } catch (Exception e) {
-//            log.error("### Filter Exception {}", e.getMessage());
-//        }
+        try {
+            if ("/member/login".equals(request.getRequestURI())) {
+                ///////delete
+                //doFilter(request, response, filterChain);
+            } else {
+                String token = parseJwt(request);
+                if (token == null) {
+                    response.sendError(403);    //accessDenied
+                } else {
+                    DecodedJWT tokenInfo = jwtUtil.decodeToken(token);
+                    if (tokenInfo != null) {
+                        String userId = tokenInfo.getClaim("userId").asString();
+                        UserDetails loginUser = memberService.loadUserByUsername(userId);
+                        UsernamePasswordAuthenticationToken authentication = new UsernamePasswordAuthenticationToken(
+                                loginUser, null, loginUser.getAuthorities()
+                        );
+
+                        authentication.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
+                        SecurityContextHolder.getContext().setAuthentication(authentication);
+                        ///////delete
+                        //doFilter(request, response, filterChain);
+
+                    } else {
+                        log.error("### TokenInfo is Null");
+                    }
+                }
+            }
+        } catch (Exception e) {
+            log.error("### Filter Exception {}", e.getMessage());
+        }
 
     }
 
