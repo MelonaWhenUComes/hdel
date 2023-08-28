@@ -4,50 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="Swagger 설정 변경 / controller 경로 변경">
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/ServiceDocumentApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/log4j2.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/templates/test/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/auth/OAuth2AuthenticationSuccessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/auth/entity/ProviderType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/auth/entity/RoleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/auth/exception/TokenValidFailedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/auth/filter/TokenAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/auth/handler/TokenAccessDeniedHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/auth/token/AuthToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/auth/token/AuthTokenProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/security/JwtConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/test/board/BoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/util/HeaderUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/test/board.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="OAuth Test 추가 / 문서관리 모듈 추가">
+      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/api/v1/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/static/assets/demo/chart-area-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/static/assets/demo/chart-bar-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/static/assets/demo/chart-pie-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/static/assets/demo/datatables-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/static/assets/img/error-404-monochrome.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/static/js/datatables-simple-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/static/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/templates/fragments/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/templates/layouts/default_layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/templates/page/charge/tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/templates/page/main/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/templates/page/main/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-frontend/vue-frontend/src/service/loginAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-frontend/vue-frontend/src/service/loginAPI.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-frontend/vue-frontend/src/views/common/LoginPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-frontend/vue-frontend/src/views/common/LoginPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-frontend/vue-frontend/src/vuex/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-frontend/vue-frontend/src/vuex/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-frontend/vue-frontend/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-frontend/vue-frontend/vue.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/SpringSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/security/SpringSecurityConfig.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/auth/CustomOAuth2UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/auth/CustomOAuth2UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/auth/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/auth/dto/OAuthAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/auth/dto/OAuthAttributes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/auth/dto/SessionUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/auth/dto/SessionUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/board/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/test/board/BoardApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/member/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/member/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/domain/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/domain/member/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/util/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/util/TokenRequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/util/TokenRequestFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/application-oauth.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/application-oauth.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/index.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/layout/footer.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/layout/footer.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/layout/header.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/templates/layout/header.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/logfile.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/logfile.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/resources/templates/test/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/templates/test/hello.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,11 +138,11 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "C:/HdelWeb/hdel/hdel-service-document/src/test/resources",
+    "last_opened_file_path": "C:/HdelWeb/hdel/hdel-service-document/src/main/resources/static",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie"
+    "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -177,18 +150,18 @@
       <recent name="com.hdel.web.service.board" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\HdelWeb\hdel\hdel-service-document\src\main\resources\static" />
       <recent name="C:\HdelWeb\hdel\hdel-service-document\src\test\resources" />
       <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources\templates\test" />
       <recent name="C:\HdelWeb\hdel\hdel-web\src\main\java\com\hdel\web\controller\test\board" />
       <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources" />
-      <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\HdelWeb\hdel\hdel-service-document\src\main\resources\templates\page" />
       <recent name="C:\HdelWeb\hdel\hdel-service-document\src\main\resources" />
       <recent name="C:\HdelWeb\hdel\hdel-web\src\main\java\com\hdel\web\config\security" />
       <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources\static" />
       <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources\templates\libs" />
-      <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources\templates\thymeleaf" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -204,8 +177,8 @@
       <recent name="com.hdel.web.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ServiceDocumentApplication">
-    <configuration name="ServiceDocumentApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.WebApplication">
+    <configuration name="ServiceDocumentApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hdel.service.document.ServiceDocumentApplication" />
       <module name="hdel.hdel-service-document.main" />
       <selectedOptions>
@@ -327,7 +300,6 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ServiceDocumentApplication" />
         <item itemvalue="Application.WebApplication" />
         <item itemvalue="JUnit.Test.getGisFromGcenAtList" />
         <item itemvalue="JUnit.Test.getGisFromGcen" />
@@ -610,7 +582,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687493981401</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="OAuth Test 추가 / 문서관리 모듈 추가">
+      <created>1693179300593</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1693179300593</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -687,7 +666,8 @@
     <MESSAGE value="test S4" />
     <MESSAGE value="bootstrap" />
     <MESSAGE value="Swagger 설정 변경 / controller 경로 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="Swagger 설정 변경 / controller 경로 변경" />
+    <MESSAGE value="OAuth Test 추가 / 문서관리 모듈 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="OAuth Test 추가 / 문서관리 모듈 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
