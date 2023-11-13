@@ -15,7 +15,7 @@ spring:
       on-profile: local
   #profiles: local
   datasource:
-    url: jdbc:mariadb://localhost:3306/DB_TEST
+    url: jdbc:mariadb://localhost:3306/ycchang
     driver-class-name: org.mariadb.jdbc.Driver
     username: ycchang
     password: init1234!

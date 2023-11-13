@@ -5,22 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="OAuth Test 추가 / 문서관리 모듈 추가">
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/api/v1/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/static/assets/demo/chart-area-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/static/assets/demo/chart-bar-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/static/assets/demo/chart-pie-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/static/assets/demo/datatables-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/static/assets/img/error-404-monochrome.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/static/js/datatables-simple-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/static/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/templates/fragments/sidebar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/templates/layouts/default_layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/templates/page/charge/tables.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/templates/page/main/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/templates/page/main/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-service-document/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-04-28__3_43__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023-04-28__3_43__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/resources/templates/test/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/templates/test/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper-dev/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper-dev/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,27 +116,30 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2KG6mcsYHx7SmRYz6sMMzXjpFPi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "C:/HdelWeb/hdel/hdel-service-document/src/main/resources/static",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/HdelWeb/hdel/hdel-service-document/src/main/resources/static&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.hdel.web.service.board" />
@@ -157,11 +152,11 @@
       <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\hdel\hdel-service-document" />
       <recent name="C:\HdelWeb\hdel\hdel-service-document\src\main\resources\templates\page" />
       <recent name="C:\HdelWeb\hdel\hdel-service-document\src\main\resources" />
       <recent name="C:\HdelWeb\hdel\hdel-web\src\main\java\com\hdel\web\config\security" />
       <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources\static" />
-      <recent name="C:\HdelWeb\hdel\hdel-web\src\main\resources\templates\libs" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -177,7 +172,7 @@
       <recent name="com.hdel.web.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WebApplication">
+  <component name="RunManager" selected="Application.ServiceDocumentApplication">
     <configuration name="ServiceDocumentApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hdel.service.document.ServiceDocumentApplication" />
       <module name="hdel.hdel-service-document.main" />
@@ -604,6 +599,21 @@
     </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -621,21 +631,6 @@
                 </map>
               </option>
             </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="master" />
-                </option>
-              </RecentGroup>
-            </list>
           </value>
         </entry>
       </map>
