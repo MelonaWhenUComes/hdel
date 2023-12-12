@@ -51,6 +51,8 @@ spring:
       cache: false
     thymeleaf:
       cache: false
+
+
 mybatis:
   configuration:
     multiple-result-sets-enabled: false
@@ -123,7 +125,10 @@ logging:
     org.hibernate.type: trace
 
 jwt:
-  secret: AAAABBBBCCCCDDDDEEEEFFFFGGGG123!@#
+  header: Authorization
+  secret: fsdfsaSDFSADFADAAAABBB1235214adsfasdfadsfdafadfsudbvcxvbxcbbBCCCCDDDDEEEEFFFFGGGG123!@#!@#!@$!@%!@$!@#!%@asdfasSFAFWEVxcVZvc1@EE!F@4fEs
+  token-validity-in-seconds: 86400  #토큰 유효시간
+
 
 server:
   port: 8102

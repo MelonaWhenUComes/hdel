@@ -1,4 +1,4 @@
-package com.hdel.service.document.api.v1.controller;
+package com.hdel.service.document.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

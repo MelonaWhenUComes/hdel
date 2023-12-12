@@ -1,4 +1,4 @@
-package com.hdel.service.document.model.common.utils;
+package com.hdel.service.document.common.utils;
 
 import java.util.HashMap;
 import com.fasterxml.jackson.core.JsonProcessingException;

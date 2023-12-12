@@ -1,4 +1,4 @@
-package com.hdel.service.document.model.common.codes;
+package com.hdel.service.document.common.codes;
 
 
 /**

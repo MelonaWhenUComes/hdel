@@ -1,6 +1,6 @@
 package com.hdel.service.document.config.exception;
 
-import com.hdel.service.document.model.common.codes.ErrorCode;
+import com.hdel.service.document.common.codes.ErrorCode;
 import lombok.Builder;
 import lombok.Getter;
 

@@ -1,4 +1,4 @@
-package com.hdel.service.document.model.common.codes;
+package com.hdel.service.document.common.codes;
 
 import lombok.AccessLevel;
 import lombok.Getter;
@@ -10,7 +10,6 @@ import lombok.NoArgsConstructor;
  * Custom Error CodeList : 업무 페이지에서 발생하는 에러코드를 관리한다
  * Error Code Constructor : 에러코드를 직접적으로 사용하기 위한 생성자를 구성한다.
  *
- * @author lee
  */
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)

@@ -27,6 +27,8 @@ dependencies {
     //mariadb
     implementation group: 'org.mariadb.jdbc', name: 'mariadb-java-client', version: '2.7.4'
     testImplementation group: 'org.mariadb.jdbc', name: 'mariadb-java-client', version: '2.7.4'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.security:spring-security-test'
 
     implementation 'org.springframework.boot:spring-boot-starter-web'
     compileOnly 'org.projectlombok:lombok'
@@ -51,12 +53,18 @@ dependencies {
     //webClient
     implementation 'org.springframework.boot:spring-boot-starter-webflux'
 
+    //VALIDATION
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
     //Jwt
     implementation 'org.springframework.boot:spring-boot-starter-security'          // Spring Security
     implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'         // Spring Boot JDBC + HikariCP
     implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.2'      // Spring Boot MyBatis
-    implementation "io.jsonwebtoken:jjwt:0.9.1"                                     // Spring Json-Web-Token
+    implementation "io.jsonwebtoken:jjwt:0.11.2"                                     // Spring Json-Web-Token
+    implementation "io.jsonwebtoken:jjwt-api:0.11.5"
+    implementation "io.jsonwebtoken:jjwt-impl:0.11.5"
+    implementation "io.jsonwebtoken:jjwt-jackson:0.11.5"
     implementation "com.googlecode.json-simple:json-simple:1.1.1"                   // json parser
+
 }
 
 test {

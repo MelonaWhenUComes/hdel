@@ -641,11 +641,11 @@ Create responsive tables by wrapping any `.table` with `.table-responsive{-sm|-m
 
 ## Captions
 
-A `<caption>` functions like a heading for a table. It helps users with screen readers to find a table and understand what it's about and decide if they want to read it.
+A `<caption>` functions like a heading for a table. It helps user with screen readers to find a table and understand what it's about and decide if they want to read it.
 
 {% capture example %}
 <table class="table">
-  <caption>List of users</caption>
+  <caption>List of user</caption>
   <thead>
     <tr>
       <th scope="col">#</th>
