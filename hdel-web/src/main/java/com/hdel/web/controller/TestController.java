@@ -25,6 +25,16 @@ public class TestController {
         return String.valueOf(i);
     }
 
+
+    @GetMapping("/test/t1")
+    public String test(HttpServletRequest request, HttpServletResponse response) {
+        int i = 1;
+        i ++;
+        System.out.println(request.getHeader("user-agent"));
+
+        return String.valueOf(i);
+    }
+
     //mybatis test
     @Autowired
     public TestController(HoInfoService hoInfoService){

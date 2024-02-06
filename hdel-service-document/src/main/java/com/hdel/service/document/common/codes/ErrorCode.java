@@ -78,6 +78,8 @@ public enum ErrorCode {
     // Business Exception Error
     BUSINESS_EXCEPTION_ERROR(200, "B999", "Business Exception Error"),
 
+    ROLE_NOT_EXIST(200, "B001", "ROLE NOT EXISTS"),
+
     // Transaction Insert Error
     INSERT_ERROR(200, "9999", "Insert Transaction Error Exception"),
 

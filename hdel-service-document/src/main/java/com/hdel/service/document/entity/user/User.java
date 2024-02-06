@@ -1,5 +1,6 @@
 package com.hdel.service.document.entity.user;
 
+import com.hdel.service.document.entity.common.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Data;
 
@@ -9,11 +10,11 @@ import java.time.LocalDateTime;
 @Entity
 @Table(name = "TB_USER")
 @Data
-public class User {
+public class User extends BaseTimeEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(nullable = false, name="ID")
-    private Long id;
+    private long id;
 
     @Column(length = 100, nullable = false, name="EMAIL")
     private String email;

@@ -4,100 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="로그인 JWT 적용중...">
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/common/utils/SecurityUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/common/utils/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/controller/user/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/controller/user/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/dto/LoginDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/dto/TokenDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/dto/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/entity/common/BaseTimeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/entity/user/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/entity/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/entity/user/UserRoleMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/jwt/JwtAccessDeniedHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/jwt/JwtAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/jwt/JwtFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/jwt/JwtSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/jwt/TokenProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/repository/user/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/repository/user/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/repository/user/UserRoleMappingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/service/user/JwtUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/service/user/UserService.java" afterDir="false" />
+    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="JWT 로긴 개발중">
+      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/dto/RoleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/dto/UserRoleMappingDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestVoidController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-frontend/node_modules/@babel/parser/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-frontend/node_modules/@babel/parser/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-frontend/node_modules/@babel/parser/lib/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-frontend/node_modules/@babel/parser/lib/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-frontend/node_modules/@vue/compiler-core/dist/compiler-core.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-frontend/node_modules/@vue/compiler-core/dist/compiler-core.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-frontend/node_modules/csstype/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-frontend/node_modules/csstype/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-frontend/node_modules/source-map/dist/source-map.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-frontend/node_modules/source-map/dist/source-map.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-frontend/node_modules/vue-router/dist/vue-router.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-frontend/node_modules/vue-router/dist/vue-router.cjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-frontend/node_modules/vue-router/dist/vue-router.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-frontend/node_modules/vue-router/dist/vue-router.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-frontend/node_modules/vue-router/dist/vue-router.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-frontend/node_modules/vue-router/dist/vue-router.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-frontend/node_modules/vue-router/dist/vue-router.prod.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-frontend/node_modules/vue-router/dist/vue-router.prod.cjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-service-document/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-service-document/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/ServiceDocumentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/ServiceDocumentApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/api/v1/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/common/utils/TokenUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/config/WebSecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/config/exception/BusinessExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/config/exception/BusinessExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/config/filter/CustomAuthenticationFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/config/filter/JwtAuthorizationFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/config/handler/CustomAuthFailureHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/config/handler/CustomAuthSuccessHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/config/handler/CustomAuthenticationProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/model/common/codes/AuthConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/common/codes/AuthConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/model/common/codes/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/common/codes/ErrorCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/model/common/user/UserDetailsDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/model/common/user/UserDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/model/common/utils/ConvertUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/common/utils/ConvertUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-service-document/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/less/icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/less/icons.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/less/variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/scss/_icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/docs/fonts/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/libs/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/libs/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/libs/bootstrap/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/libs/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/form_buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/form_buttons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/general_elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/general_elements.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/glyphicons.html" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/glyphicons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/icons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/index3.html" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/production/index3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/docs/10-Notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/Chart.js/docs/10-Notes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_carousel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/scss/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/callout-warning-color-assistive-technologies.md" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/_includes/callout-warning-color-assistive-technologies.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/badge.md" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/badge.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/buttons.md" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/buttons.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/collapse.md" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/collapse.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/forms.md" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/forms.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/input-group.md" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/input-group.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/navbar.md" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/navbar.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/navs.md" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/navs.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/popovers.md" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/popovers.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/toasts.md" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/toasts.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/tooltips.md" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/components/tooltips.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/content/tables.md" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/content/tables.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/content/typography.md" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/content/typography.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/dashboard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/dashboard/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/pricing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/examples/pricing/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/getting-started/accessibility.md" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/getting-started/accessibility.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/getting-started/browsers-devices.md" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/getting-started/browsers-devices.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/getting-started/build-tools.md" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/getting-started/build-tools.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/getting-started/javascript.md" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/getting-started/javascript.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/getting-started/theming.md" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/getting-started/theming.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/utilities/visibility.md" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/bootstrap/site/docs/4.3/utilities/visibility.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/less/icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/less/icons.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/less/variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/nprogress/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/resources/static/vendors/nprogress/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/vue/static/js/vendor.43019ad10f30041714f6.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/vue/static/js/vendor.43019ad10f30041714f6.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/common/codes/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/common/codes/ErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/controller/user/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/controller/user/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/controller/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/controller/user/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/entity/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/entity/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/entity/user/UserRoleMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/entity/user/UserRoleMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/service/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/service/user/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,14 +140,14 @@
       <recent name="com.hdel.web.domain.user" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hdel.service.document.dto" />
       <recent name="com.hdel.service.document.repository.user" />
       <recent name="com.hdel.service.document.entity.user" />
       <recent name="com.hdel.service.document.config" />
       <recent name="com.hdel.service.document" />
-      <recent name="com.hdel.web.config.auth" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ServiceDocumentApplication">
+  <component name="RunManager" selected="Application.TestVoidController">
     <configuration name="ServiceDocumentApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hdel.service.document.ServiceDocumentApplication" />
       <module name="hdel.hdel-service-document.main" />
@@ -239,6 +158,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hdel.service.document.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestVoidController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hdel.web.controller.TestVoidController" />
+      <module name="hdel.hdel-web.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdel.web.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -343,6 +275,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.ServiceDocumentApplication" />
+      <item itemvalue="Application.TestVoidController" />
       <item itemvalue="Application.WebApplication" />
       <item itemvalue="JUnit.MemberRepositoryTest.test_1" />
       <item itemvalue="JUnit.Test" />
@@ -351,6 +284,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestVoidController" />
         <item itemvalue="Application.WebApplication" />
         <item itemvalue="JUnit.Test.getGisFromGcenAtList" />
         <item itemvalue="JUnit.Test.getGisFromGcen" />
@@ -656,7 +590,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701396165964</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="JWT 로긴 개발중">
+      <option name="closed" value="true" />
+      <created>1702365264967</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1702365264967</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -709,7 +651,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="수정수정" />
     <MESSAGE value="수정수정수정" />
     <MESSAGE value="Vue Front 추가, JWT 추가" />
     <MESSAGE value="dev 설정 수정" />
@@ -734,7 +675,8 @@
     <MESSAGE value="OAuth Test 추가 / 문서관리 모듈 추가" />
     <MESSAGE value="로컬 세팅 다시 재배포" />
     <MESSAGE value="로그인 JWT 적용중..." />
-    <option name="LAST_COMMIT_MESSAGE" value="로그인 JWT 적용중..." />
+    <MESSAGE value="JWT 로긴 개발중" />
+    <option name="LAST_COMMIT_MESSAGE" value="JWT 로긴 개발중" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -826,7 +768,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestController.java</url>
-          <line>40</line>
+          <line>50</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -904,6 +846,21 @@
           <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/auth/filter/TokenAuthenticationFilter.java</url>
           <line>22</line>
           <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/service/user/UserService.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestVoidController.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="70" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

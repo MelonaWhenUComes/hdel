@@ -16,10 +16,7 @@ public class UserRoleMapping {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(nullable = false, name="ID")
-    private Long id;
-
-    @Column(length = 100, nullable = false, name="EMAIL")
-    private String email;
+    private long id;
 
     @Column(nullable = false, name="NAME")
     private String role;
@@ -27,16 +24,22 @@ public class UserRoleMapping {
     @Column(nullable = true, name="CREATED_ID")
     private long createdId;
 
-    @Column(nullable = true, name="CREATED_AT")
-    private LocalDateTime createdAt;
+//    @Column(nullable = true, name="CREATED_AT")
+//    private LocalDateTime createdAt;
 
     @Column(nullable = true, name="MODIFIED_ID")
     private long modifiedId;
 
-    @Column(nullable = true, name="MODIFIED_AT")
-    private LocalDateTime modifiedAt;
+//    @Column(nullable = true, name="MODIFIED_AT")
+//    private LocalDateTime modifiedAt;
 
     @Builder
+    public UserRoleMapping(String role, long createdId, long modifiedId) {
+        this.role = role;
+        this.createdId = createdId;
+        this.modifiedId = modifiedId;
+    }
+/*
     public UserRoleMapping(String email, String role, long createdId, LocalDateTime createdAt,long modifiedId, LocalDateTime modifiedAt) {
         this.email = email;
         this.role = role;
@@ -45,6 +48,8 @@ public class UserRoleMapping {
         this.modifiedId = modifiedId;
         this.modifiedAt = modifiedAt;
     }
+*/
+
 
 
 }
