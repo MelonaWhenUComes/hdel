@@ -1,5 +1,6 @@
 package com.hdel.service.document.common.utils;
 
+import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 
 import java.util.Optional;

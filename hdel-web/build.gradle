@@ -78,6 +78,11 @@ dependencies {
     // jwt 관련 의존성
     implementation 'io.jsonwebtoken:jjwt-api:0.11.2'
     implementation 'io.jsonwebtoken:jjwt-jackson:0.11.2'
+
+    // https://mvnrepository.com/artifact/com.thoughtworks.xstream/xstream
+    // xml 변환
+    //implementation group: 'com.thoughtworks.xstream', name: 'xstream', version: '1.4.2'
+
 }
 
 test {

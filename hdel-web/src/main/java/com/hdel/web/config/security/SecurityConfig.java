@@ -45,6 +45,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter
                             , "/webjars/**"
                             , "/api/v1/member/**"
                             , "/test/*"
+                            , "/api/v1/**"
                     ).permitAll()
                     //.antMatchers("/api/v1/**").hasRole(Role.USER.name()) // user 권한 보유자
                     .anyRequest().authenticated()

@@ -10,3 +10,6 @@
 [ERROR] 2023-04-19 16:36:44.429 [http-nio-8091-exec-1] TokenRequestFilter - ### TokenInfo is Null
 [ERROR] 2023-08-10 14:07:37.586 [http-nio-8091-exec-3] JwtUtil - JWTVerificationException: The token was expected to have 3 parts, but got 1.
 [ERROR] 2023-08-10 14:07:37.587 [http-nio-8091-exec-3] TokenRequestFilter - ### TokenInfo is Null
+[ERROR] 2024-06-04 16:12:01.373 [http-nio-8091-exec-2] ConverterUtil - java.io.FileNotFoundException: C:\excelreadwrite\readDetail_20221209.csv (지정된 경로를 찾을 수 없습니다)
+[ERROR] 2024-06-04 16:56:52.730 [http-nio-8091-exec-8] ConverterUtil - java.io.FileNotFoundException: C:\excelreadwrite\readDetail_20221209.csv (지정된 파일을 찾을 수 없습니다)
+[ERROR] 2024-06-04 16:58:04.811 [http-nio-8091-exec-10] ConverterUtil - java.io.FileNotFoundException: C:\excelreadwrite\readDetail_20221209.csv (지정된 파일을 찾을 수 없습니다)
