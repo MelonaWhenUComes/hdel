@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="JWT 로긴 개발중 1">
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/TestTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/openApi/NaverAddressController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/tests/Add123.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/tests/CrossCountry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/tests/FileSortS3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/tests/TestFirstController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/tests/Word.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/dto/api/GovElevatorInfoXmlDto.java" afterDir="false" />
+    <list default="true" id="89bddd16-617c-47cf-b253-843212c513a3" name="Changes" comment="테스트">
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/tests/DuckCnt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/controller/tests/WordsBack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/common/utils/SecurityUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-service-document/src/main/java/com/hdel/service/document/common/utils/SecurityUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/config/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/service/api/GovApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdel-web/src/main/java/com/hdel/web/service/api/GovApiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/logfile.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/logfile.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,9 +138,22 @@
       <recent name="com.hdel.service.document.entity.user" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileSortS3">
+  <component name="RunManager" selected="Application.WordsBack">
     <configuration name="크로스컨트리" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hdel.web.controller.tests.크로스컨트리" />
+      <module name="hdel.hdel-web.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdel.web.controller.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DuckCnt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hdel.web.controller.tests.DuckCnt" />
       <module name="hdel.hdel-web.main" />
       <extension name="coverage">
         <pattern>
@@ -206,26 +208,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFirstController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hdel.web.controller.tests.TestFirstController" />
+    <configuration name="WordsBack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hdel.web.controller.tests.WordsBack" />
       <module name="hdel.hdel-web.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hdel.web.controller.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hdel.web.WebApplication" />
-      <module name="hdel.hdel-web.main" />
-      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=local" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hdel.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,20 +270,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.ServiceDocumentApplication" />
+      <item itemvalue="Application.DuckCnt" />
       <item itemvalue="Application.FileSortS3" />
+      <item itemvalue="Application.WordsBack" />
       <item itemvalue="Application.FileSort_S3" />
       <item itemvalue="Application.크로스컨트리" />
-      <item itemvalue="Application.TestFirstController" />
-      <item itemvalue="Application.WebApplication" />
       <item itemvalue="JUnit.MemberRepositoryTest.test_1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordsBack" />
+        <item itemvalue="Application.DuckCnt" />
         <item itemvalue="Application.FileSortS3" />
         <item itemvalue="Application.FileSort_S3" />
         <item itemvalue="Application.크로스컨트리" />
-        <item itemvalue="Application.TestFirstController" />
-        <item itemvalue="Application.WebApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -613,7 +601,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707261278607</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="테스트">
+      <option name="closed" value="true" />
+      <created>1722555916352</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1722555916352</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -666,7 +662,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Vue Front 추가, JWT 추가" />
     <MESSAGE value="dev 설정 수정" />
     <MESSAGE value="내부망 접근불가에 따른 수정" />
     <MESSAGE value="내부망 접근불가에 따른 수정1" />
@@ -691,7 +686,8 @@
     <MESSAGE value="로그인 JWT 적용중..." />
     <MESSAGE value="JWT 로긴 개발중" />
     <MESSAGE value="JWT 로긴 개발중 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="JWT 로긴 개발중 1" />
+    <MESSAGE value="테스트" />
+    <option name="LAST_COMMIT_MESSAGE" value="테스트" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
